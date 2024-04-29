@@ -7,47 +7,57 @@
 
 }
 
-
-
-
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:midnightblue;
     text-align: center; /*doesn't centered*/
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 100px;
+    background-color: var(--text-color);
+    transition: 0.5s linear;
+    
+
 }
 
 .navbar li {
     display: inline-block;
     margin: 0 10px; 
     
+    
+    
 }
+
 
 li{
     float: left;
 }
 .navbar a {
     display: block;
-    color: white;
+    color: var(--bg-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
   
 .navbar a:hover {
-    background-color: #111;
+    background-color: var(--main-color);
+    border-radius: 0.2rem;
+    transition: 0.5s all linear;
 }   
 .gallery{
     
-    width: 100%;
+    
     top: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 43rem;
-    color: gold;
+    color: black;
     font-size: 4rem;
 
 }
@@ -56,12 +66,12 @@ li{
 width: 100%;
 top: 35%;
 text-transform: capitalize;
-color: gold;
+color:black;
 }
 
 .head h2{
     position: absolute;
-    top: 38.6%;
+    top: 43.5%;
     left: 6.8rem;
     border: 1px solid black;
     border-radius: 85px;
@@ -72,15 +82,17 @@ color: gold;
 
 }
 .product-container{
-
+    left: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5rem;
     margin-top: 2rem;
+    color: #111;
 
 }
 .product-container .pic{
-    position: relative;
+
+    left: 50%;
     border: 1px solid black;
     padding: 10px;
     display: flex;
@@ -93,4 +105,32 @@ color: gold;
     height: 350px;
     border-radius: 0.5rem;
 
+}
+.vidios {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+.vidios h2{
+    position: absolute;
+    top: 55.5rem;
+    left: 6.8rem;
+    border: 1px solid black;
+    border-radius: 85px;
+    padding: 0.5px 6px;
+    font-size: 18px;
+    background-color: grey;
+    color: white;
+
+}
+.product-container .vid{
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
 }
