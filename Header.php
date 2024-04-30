@@ -7,7 +7,7 @@
         <a href="index.php">
                 <img src="images/logo.png" alt="Logo" class="center"> 
             </a>
-        <h1> International Music  Awards </h1>
+            <h1 class="title"> International Music  Awards </h1>
     </div>
     <div class="navbar">
     <div class="container">
