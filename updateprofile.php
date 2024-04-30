@@ -1,4 +1,3 @@
-
 <?php
 
 include 'configure.php';
@@ -13,7 +12,7 @@ $userCountry=$_POST["ucountry"];
 $userEmail=$_POST["uemail"];
 $userContact=$_POST["ucontact"];
 
-$sql="INSERT INTO ~settings~ VALUES ('$userID','$userName','$userAge,'$userGender','$userDOB','$userCountry','$userEmail','$userContact')";
+$sql="INSERT INTO settings (ID, Name, Age, Gender, Date_of_Birth, Country, Email, Contact_No) VALUES ('$userID', '$userName', '$userAge', '$userGender', '$userDOB', '$userCountry', '$userEmail', '$userContact')";
 
 $result=mysqli_query($con,$sql);
 if($result)
@@ -26,6 +25,4 @@ else{
 }
 
 $con->close();
-
-
 ?>
