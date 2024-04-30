@@ -14,7 +14,7 @@
 
 }
 
-.navbar a {
+.navbar li a {
     display: block;
     color: var(--bg-color);
     text-align: center;
@@ -22,7 +22,7 @@
     text-decoration:none;
 }
 
-.navbar a:hover {
+.navbar li a:hover {
     background-color:darkgoldenrod;
     border-radius: 0.2rem;
     transition: 0.5s all linear;
