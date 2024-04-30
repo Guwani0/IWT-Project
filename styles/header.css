@@ -14,15 +14,15 @@
 
 }
 
-.navbar a {
+.navbar  li a {
     display: block;
-    color: var(--bg-color);
+    color:aliceblue;
     text-align: center;
     padding: 14px 16px;
     text-decoration:none;
 }
 
-.navbar a:hover {
+.navbar li a:hover {
     background-color:darkgoldenrod;
     border-radius: 0.2rem;
     transition: 0.5s all linear;
