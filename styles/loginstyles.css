@@ -1,0 +1,76 @@
+.login-box{
+    backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.466);
+    border-radius: 7px;
+    padding: 55px;
+    margin-top: 50px;
+    height: fit-content;
+    width: 300px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+h1{
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 8%;
+    transform: translateY(-50%);
+    width: 100%;
+    border: black;
+}
+
+label{
+    display: block;
+    margin-bottom: 2px;
+}
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    background: transparent;
+    outline: none;
+}
+input[type="text"]:focus,
+input[type="password"]:focus{
+    border-bottom: 1px solid black;
+}
+input[type="submit"]{
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: black;
+    outline: black;
+    color: white;
+}
+button{
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: black;
+    outline: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body {
+    background-image: url('img2.jpeg'); /* Specify the path to your background image */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}/*need to remove this part when adding to the main */
+.signup-design{
+    color: white;
+}
