@@ -1,0 +1,29 @@
+.head
+{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.form
+{
+    background-color: yellow;
+    backdrop-filter: blur(10px);
+    border: 5px black;
+    border-radius: 10px;
+    text-align: left;
+    height: fit-content;
+    width:fit-content;
+    padding: 70px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.submit
+{
+    align-content: baseline;
+}
+
