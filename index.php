@@ -8,6 +8,7 @@
 </head>
 <body>
     <!-- index.php -->
+    <?php require 'configure.php';?> 
     <?php include 'header.php'; ?> 
     <div class="background">
     <div class="content">
