@@ -3,14 +3,30 @@
 <head>
 <title></title>
 <style>
+    @font-face{
+        font-family:Mono;
+        src: url(../IWT-Project/Fonts/Mono.ttf);
+    }
+    @font-face{
+        font-family:Future;
+        src: url(../IWT-Project/Fonts/future.ttf);
+    }
+    @font-face{
+        font-family:Anton;
+        src: url(../IWT-Project/Fonts/Anton.ttf);
+    }
+    .live{
+        font-family:'Mono';
+    }
     .CAT{
-        font-family:"Amasis MT Pro Black";
+        font-family:'Future';
+        color: rgb(240, 220, 0);
     }
     .BEST{
         background:url('../IWT-Project/images/Button.jpg');
         background-size:cover;
-        font-size:25px; 
-        font-family:"Amasis MT Pro Black";
+        font-size:35px; 
+        font-family:"Anton";
         border-color:rgb(28, 91, 207);
         border-style:solid;
         border-width:1px;
@@ -38,8 +54,8 @@
     .YEAR{
         background:url('../IWT-Project/images/Button.jpg');
         background-size:cover;
-        font-size:25px; 
-        font-family:"Amasis MT Pro Black";
+        font-size:35px; 
+        font-family:"Anton";
         border-color:rgb(28, 91, 207);
         border-style:solid;
         border-width:1px;
@@ -65,8 +81,8 @@
     .POP{
         background:url('../IWT-Project/images/Button.jpg');
         background-size:cover;
-        font-size:25px; 
-        font-family:"Amasis MT Pro Black";
+        font-size:35px; 
+        font-family:"Anton";
         border-color:rgb(28, 91, 207);
         border-style:solid;
         border-width:1px;
@@ -94,8 +110,8 @@
     .SONG{
         background:url('../IWT-Project/images/Button.jpg');
         background-size:cover;
-        font-size:25px; 
-        font-family:"Amasis MT Pro Black";
+        font-size:35px; 
+        font-family:"Anton";
         border-color:rgb(28, 91, 207);
         border-style:solid;
         border-width:1px;
@@ -122,8 +138,8 @@
     .GROUP{
         background:url('../IWT-Project/images/Button.jpg');
         background-size:cover;
-        font-size:25px; 
-        font-family:"Amasis MT Pro Black";
+        font-size:35px; 
+        font-family:"Anton";
         border-color:rgb(28, 91, 207);
         border-style:solid;
         border-width:1px;
@@ -149,8 +165,8 @@
     .ALBUM{
         background:url('../IWT-Project/images/Button.jpg');
         background-size:cover;
-        font-size:25px; 
-        font-family:"Amasis MT Pro Black";
+        font-size:35px; 
+        font-family:"Anton";
         border-color:rgb(28, 91, 207);
         border-style:solid;
         border-width:1px;
@@ -178,19 +194,19 @@
 <body>
  <?php include 'Header.php'?>
  <div>
-    <p><marquee>Pick your favourite now! Tune in LIVE Sunday, November 16th at 987 C PTV to see who wins!</marquee></p>
-    <center><h1 class="CAT"><font face="Times New Roman">Select Category</font></h1></center>
+    <p class="live"><marquee><b>Pick your favourite now! Tune in LIVE Sunday, November 16th at 987 C PTV to see who wins!</b></marquee></p>
+    <center><h1 class="CAT">SELECT CATEGORY</h1></center>
     <br> <br> <br>
-    <a href=""><button class="BEST">
+    <button class="BEST">
     BEST NEW ARTIST
-    </button></a>
+    </button>
 
     <button class="YEAR">
         ARTIST OF THE YEAR
     </button>
 
     <button class="POP">
-        <b>MOST POPULAR ARTIST</b>
+        MOST POPULAR ARTIST
     </button>
     <br><br><br>
     <button class="SONG">
