@@ -4,8 +4,6 @@
     border-radius: 7px;
     padding: 55px;
     margin-top: 110px;
-    left: 10px;
-    height: fit-content;
     width: 300px;
     border: 1px solid black;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
@@ -14,12 +12,11 @@
 h1.header{
     color: black;
     position: absolute;
-    text-align: left;
+    text-align: center;
     top: 40%;
     transform: translateY(-50%);
     width: 100%;
     border: black;
-    margin-left: 560px;
 }
 label{
     display: block;
@@ -68,8 +65,9 @@ button.btn{
     text-decoration: none;
 }
 body.box{
-    background-image: url('');
+    background-image: url("images/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    justify-content: center;
 }

@@ -1,0 +1,86 @@
+.box{
+    backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.466);
+    border-radius: 7px;
+    padding: 55px;
+    margin-top: 20px;
+    left: 10px;
+    height: fit-content;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    margin-left: 100px;
+}
+.pic{
+    padding: 1px;
+    margin-left: -32px;
+}
+.dpara1{
+    font-size: xxx-large;
+    margin-left: 110px;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+}
+.dpara1 span{
+    margin-right: 50px;
+}
+.dpara2{
+    text-decoration: solid;
+    font-size: 25px;
+    margin-top: -10px;
+    margin-left: 28px;
+    text-shadow: 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+    color: blue;
+    line-height: -11;
+}
+.rotate{
+    width: 70px;
+    height: 70px;
+    margin-top: -90px;
+    margin-left: 15px;
+    animation: rotate 12s linear infinite; 
+}
+@keyframes rotate{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.ryt{
+    margin-right: 20px;
+}
+.qr{
+    margin-left: 160px;
+    margin-right: 0px;
+    margin-top: 100px;
+    size: 50px;
+}
+.qr::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.right{
+    flex: 1;
+}
+.containerA{
+    display: flex;
+}
+.left{
+    flex: 1;
+}
+.right{
+    flex: 1;
+}
+body{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
