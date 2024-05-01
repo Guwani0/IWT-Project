@@ -1,8 +1,10 @@
 body {
     background-image: url('../IWT-Project/images/storybg.jpg');
+    background-color: black;
     background-size:cover; 
     background-position:center;
     background-repeat:no-repeat;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     overflow-y: auto;
@@ -26,4 +28,16 @@ body {
     
     
     
+}
+
+.headlogo{
+    animation: rotate 12s linear infinite; 
+    @keyframes rotate{
+        form{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
 }
