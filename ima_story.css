@@ -1,0 +1,29 @@
+body {
+    background-image: url('../IWT-Project/images/storybg.jpg');
+    background-size:cover; 
+    background-position:center;
+    background-repeat:no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+}
+
+.float{
+    position: relative; 
+    z-index: 1; 
+    padding: 20px; 
+    color: white; 
+}
+
+
+.header{
+    display: inline-block;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 100vw; 
+    height: 20vh;
+    
+    
+    
+}
