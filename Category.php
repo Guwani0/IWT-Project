@@ -17,17 +17,19 @@
     }
     .live{
         font-family:'Mono';
+        color: white;
     }
     .CAT{
         font-family:'Future';
         color: rgb(240, 220, 0);
+        text-shadow:5px 5px 10px black;
     }
     .BEST{
         background:url('../IWT-Project/images/Button.jpg');
         background-size:cover;
         font-size:35px; 
         font-family:"Anton";
-        border-color:rgb(28, 91, 207);
+        border-color:rgba(255, 179, 0, 0.596);
         border-style:solid;
         border-width:1px;
         color:white;
@@ -56,7 +58,7 @@
         background-size:cover;
         font-size:35px; 
         font-family:"Anton";
-        border-color:rgb(28, 91, 207);
+        border-color:rgba(255, 179, 0, 0.596);
         border-style:solid;
         border-width:1px;
         color:white;
@@ -83,7 +85,7 @@
         background-size:cover;
         font-size:35px; 
         font-family:"Anton";
-        border-color:rgb(28, 91, 207);
+        border-color:rgba(255, 179, 0, 0.596);
         border-style:solid;
         border-width:1px;
         color:white;
@@ -112,7 +114,7 @@
         background-size:cover;
         font-size:35px; 
         font-family:"Anton";
-        border-color:rgb(28, 91, 207);
+        border-color:rgba(255, 179, 0, 0.596);
         border-style:solid;
         border-width:1px;
         color:white;
@@ -140,7 +142,7 @@
         background-size:cover;
         font-size:35px; 
         font-family:"Anton";
-        border-color:rgb(28, 91, 207);
+        border-color:rgba(255, 179, 0, 0.596);
         border-style:solid;
         border-width:1px;
         color:white;
@@ -167,7 +169,7 @@
         background-size:cover;
         font-size:35px; 
         font-family:"Anton";
-        border-color:rgb(28, 91, 207);
+        border-color:rgba(255, 179, 0, 0.596);
         border-style:solid;
         border-width:1px;
         color:white;
@@ -188,13 +190,33 @@
     .ALBUM:active{
         opacity:0.7;
     }
+
+    body {
+    background-image: url('../IWT-Project/images/back.png');
+    background-color:black;
+    background-size:cover; 
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+
+  
+}
+
+.float{
+    position: relative; 
+    z-index: 1; 
+    padding: 20px; 
+}
 </style>
 </head>
 
 <body>
  <?php include 'Header.php'?>
- <div>
-    <p class="live"><marquee><b>Pick your favourite now! Tune in LIVE Sunday, November 16th at 987 C PTV to see who wins!</b></marquee></p>
+ <div class="float">
+    <p class="live"><marquee><b>Pick your favourite now! Tune in LIVE Sunday, June 15th at 987 C PTV to see who wins!</b></marquee></p>
     <center><h1 class="CAT">SELECT CATEGORY</h1></center>
     <br> <br> <br>
     <button class="BEST">
