@@ -9,7 +9,7 @@
     width: 300px;
     border: 1px solid black;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
-    margin-left: 60px;
+    margin-left: 450px;
 }
 h1.header{
     color: black;
@@ -19,7 +19,7 @@ h1.header{
     transform: translateY(-50%);
     width: 100%;
     border: black;
-    margin-left: 80px;
+    margin-left: 560px;
 }
 label{
     display: block;
@@ -50,6 +50,10 @@ input[type="submit"]{
     outline: black;
     color: white;
 }
+.fp{
+    text-decoration: none;
+    color: black;
+}
 button.btn{
     width: 100%;
     padding: 8px 0;
@@ -58,15 +62,12 @@ button.btn{
     border-bottom: 1px solid black;
     background: black;
     outline: black;
-    color: white;
 }
-/*button.btn2{
-    padding: 0px 0;
-    margin-bottom: 10px;
-    border: none;
-    background: none;
-}*/
-body{
+.su{
+    color: white;
+    text-decoration: none;
+}
+body.box{
     background-image: url('');
     background-size: cover;
     background-position: center;

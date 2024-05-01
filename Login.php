@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="styles/loginstyles.css">
         <title>LOG IN | IMA</title>
     </head>
-    <body>
-         <?php include 'header.php'; ?>
+    <?php include 'header.php'; ?>
+    <body class="box">
+         
         <h1 class="header" style="font-size: xxx-large;">LOG IN</h1>
         <div class="login-box">
             <form action="login.php" method="post">
@@ -21,7 +22,7 @@
                 <br><br>
                 <input type="submit" value="LOG IN">
                 <p style="text-align: center;">Don't have an account?</p>
-                <button class="btn"><a href="#">SIGN UP</a></button>
+                <button class="btn"><a href="#" class="su">SIGN UP</a></button>
             </form>
         </div>
     </body>
