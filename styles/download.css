@@ -21,6 +21,7 @@
     margin-top: 110px;
     display: flex;
     align-items: center;
+    color: white;
 }
 .dpara1 span{
     margin-right: 50px;
@@ -77,10 +78,4 @@
 }
 .right{
     flex: 1;
-}
-body{
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }

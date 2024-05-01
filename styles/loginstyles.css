@@ -10,7 +10,7 @@
     margin-left: 450px;
 }
 h1.header{
-    color: black;
+    color: white;
     position: absolute;
     text-align: center;
     top: 40%;
@@ -63,11 +63,4 @@ button.btn{
 .su{
     color: white;
     text-decoration: none;
-}
-body.box{
-    background-image: url("images/background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    justify-content: center;
 }
