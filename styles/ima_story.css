@@ -14,17 +14,11 @@
     align-items:center;
     width: 100vw; 
     height:20vh;   
+
     
 }
 
-.awardpic{
-    width: 300px;
-    height: 200px;
-    display: block;
-    margin: 0 auto; 
-    border-radius: 8px;
-    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.5);
-}
+
 
 .headtext{
     font-size:xx-large;
@@ -35,3 +29,7 @@
     font-family:Future;
     src: url(../fonts/Unbounded/future.ttf);
 }
+
+
+
+
