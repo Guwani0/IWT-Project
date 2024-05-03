@@ -26,7 +26,7 @@
                 <div class="frame">
                     <p class="p2">If you have concerns or questions don't 
                         hesitate to reach out to us at XX XXX XXX <br>
-                        You can also easily fill out contact from below and IMA will
+                        You can also easily fill out contact form below and IMA will
                         get back to you as soon as possible.<br>
                         <b>Thank you</p>
                     </p>

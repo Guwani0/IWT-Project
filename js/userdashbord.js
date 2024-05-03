@@ -1,0 +1,1 @@
+document.getElementById("btn1").addEventListener("click",function(){window.location.href="../IWT-Project/Login.php";});
