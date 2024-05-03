@@ -7,10 +7,14 @@
 
 }
 @font-face{
-    font-family:  Future;
-    src: url();
+    font-family: 'Future';
+    src: url("../fonts/future.ttf")
 }
 
+*
+{
+    font-family: 'Future';
+}
 
 .navbar ul {
     list-style-type: none;
@@ -79,8 +83,8 @@ color:black;
 
 .head h2{
     position: absolute;
-    top: 43.5%;
-    left: 6.8rem;
+    top: 44.4%;
+    right: 1230px;
     border: 1px solid black;
     border-radius: 85px;
     padding: 0.5px 6px;
@@ -123,8 +127,8 @@ color:black;
 }
 .vidios h2{
     position: absolute;
-    top: 55.5rem;
-    left: 6.8rem;
+    top: 56.5rem;
+    right: 1230px;
     border: 1px solid black;
     border-radius: 85px;
     padding: 0.5px 6px;
