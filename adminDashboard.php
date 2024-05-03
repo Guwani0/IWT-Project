@@ -31,10 +31,10 @@ body{
 
 .wrapper .sidebar{
   width: 100%;
-  height: 20%;
+  height: 15%;
   background: #242428;
   padding: 30px 0px;
-  position: fixed;
+
   font-family: Future;
 }
 
