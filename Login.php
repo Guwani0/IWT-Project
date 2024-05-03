@@ -25,9 +25,9 @@
         <div class="login-box">
             <form action="login.php" method="post">
                 <label for="username">Username</label><br>
-                <input type="text" required><br>
+                <input type="text" name="Username"required><br>
                 <label for="password">Password</label><br>
-                <input type="password" required><br>
+                <input type="password" name="Password" required><br>
                 <div>
                     <a href="#" class="fp">Forgot password?</a> 
                 </div>
