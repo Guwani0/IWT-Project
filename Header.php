@@ -4,15 +4,11 @@
         <link rel="stylesheet" href="styles\header.css">
     </head>
     <div>
-        <a href="index.php">
+    <a href="index.php">
                 <img src="images/logo.png" alt="Logo" class="center"> 
             </a>
-            <h1 class="title"> International Music  Awards </h1>
+            <h1 class="title"> International Music  Awards </h1> </br>
     </div>
-    <div class="navbar">
-    <div class="container">
-    
-
     <nav class="navbar">
         <ul> 
             <li> <a href="index.php">  Home </a> </li>
