@@ -2,8 +2,8 @@
 <html>
     <head> 
         <meta charset="UTF-8">
-        <title> Gallery </title>
-        <link rel="stylesheet" href="styles/gall.css">
+        <title> Feedback </title>
+        <link rel="stylesheet" href="styles/feedback.css">
         <link rel="stylesheet"
         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     </head>
@@ -22,8 +22,19 @@
                 <li> <a href="#"> Download The App </a> </li>
                 <li> <a href="#"> Contact Us </a> </li>
             </ul>
-    </div>
     
+        <div class="div1">
+            <div class="div12">        
+        <form >
+            <h1>GIve your Feedback</h1>
+            <div class="id">
+                <input type="text" placeholder="Full name">
+            </div>
+            <textarea cols="15" rows="5" placeholder="Enter your opinions here.."></textarea>
+            <button>Submit</button>
+        </form>    
+</div>
+</div>
     
 
 
