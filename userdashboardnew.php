@@ -29,6 +29,7 @@
                 <button class="btn2">News</button><br>
                 <button class="btn2">Notifications</button>
                 <button id="btn1">Sign out</button>
+                <script src="js/userdashboard.js"></script>
             </div>
     </div>
     </body>
