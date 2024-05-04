@@ -36,5 +36,24 @@
                 <button class="btn2">Notifications</button>
             </div>
         </div>
+        <div class="right">
+            <div class="gallery-wrap">
+                <img src="images/left key.png" alt="left key" id="backBtn">
+                <div class="gallery">
+            <div>
+                <span><img src="images/sp1.png" alt="sp1"></span>
+                <span><img src="images/sp2.jpeg" alt="sp2"></span>
+            </div>
+            <div>
+                <span><img src="images/sp3.png" alt="sp3"></span>
+                <span><img src="images/sp4.png" alt="sp4"></span>
+            </div>
+            <div>
+                <span><img src="images/sp5.png" alt="sp5"></span>
+                <span><img src="images/sp6.png" alt="sp6"></span>
+            </div>
+            </div>
+                <img src="images/right key.png" alt="right key" id="nextBtn">
+            </div>
     </div> 
     </body>
