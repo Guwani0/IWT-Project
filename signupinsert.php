@@ -1,11 +1,19 @@
 <?php
 
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+
     // linking the connection of database php
     require 'configure.php';
 
     // $_POST use as the form method, values taken into new variable, [goes the name of the inputs]
-    $userName = $_POST["uName"];
-    $userEmail =$_POST["uEmail"];
+    $firstName = $_POST['fname'];
+    $lastName = $_POST['lname'];
+    $email =$_POST["email"];
+    $number = $_POST['pnumber'];
+    $birth = $_POST['dob'];
+    $cont = $_POST['country'];
     $userPassword =$_POST["uPassword"];
     $reuserPassword =$_POST["reUpassword"];
 
@@ -18,20 +26,23 @@
     // Hash the password with a secure hashing function
     $hashedPassword = password_hash($userPassword, PASSWORD_BCRYPT);
 
-    //data insert query
-    $sql= "INSERT INTO user VALUES('$userName','$userEmail' , '$userPassword')";
-  
     //execute query
-    if($con-> query ($sql))
+    if($con->connect_error)
     {
-        //redirect to homepage
+        echo "$conn->connect_error";
+		die("Connection Failed : ". $conn->connect_error);
+    }
+    else
+    {
+        //execute query
+        $stmt = $con->prepare("INSERT INTO user (Email, First_Name, Last_Name, Contact_No, DOB, Country, U_password ) VALUES(?, ?, ?, ?, ?, ?,?)");
+        $stmt->bind_param("sssssss", $email, $firstName, $lastName, $number, $birth, $cont, $userPassword);
+        $execval = $stmt->execute();
+		echo $execval;
         header("Location: index.php");
-        exit;
+		exit();
+		$stmt->close();
+        $con-> close();
     }
-    else{
-        echo "Error".$con->error;
-    }
-
-    //close the connection
-    $con-> close();
+      
 ?>

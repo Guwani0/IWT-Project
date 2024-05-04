@@ -12,6 +12,21 @@
 </head>
 
 <body>
+    <?php
+    session_start();
+    require 'configure.php';
+    if(!empty($_SESSION['email'])){
+        $email = $_SESSION["email"];
+        $result = mysqli_query($con, "SELECT * FROM user WHERE Email = $email");
+        $row = mysqli_fetch_assoc($result);
+    }
+    // else{
+    //     header("location: login.php");
+    //     exit();
+    // }
+    ?>
+
+
     <div class="background">
     </div>
 
