@@ -68,7 +68,7 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 43rem;
+    padding: 1rem 35rem;
     color: black;
     font-size: 4rem;
 
@@ -83,7 +83,7 @@ color:black;
 
 .head h2{
     position: absolute;
-    top: 44.4%;
+    top: 51.1%;
     right: 1230px;
     border: 1px solid black;
     border-radius: 85px;
@@ -127,7 +127,7 @@ color:black;
 }
 .vidios h2{
     position: absolute;
-    top: 56.5rem;
+    top: 61.2rem;
     right: 1230px;
     border: 1px solid black;
     border-radius: 85px;
@@ -147,7 +147,7 @@ color:black;
     box-shadow: var(--box-shadow);
 }
 body{
-    background-color: #FEECE2;
+    background-color: #575353;
 }
 
 .t1{
@@ -160,4 +160,9 @@ body{
     width: 380px;
     
 
+}
+.product-container  .ll{
+    color: #111;
+    border: 1px solid black;
+    border-radius: 3px;
 }
