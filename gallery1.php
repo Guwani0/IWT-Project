@@ -8,12 +8,14 @@
         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     </head>
     <body>
-      <?php
 
-      require 'header.php';
+    <?php
 
-      ?>
+    require 'header.php';
 
+    ?>
+        
+      
     <div class="head">
           <div class="t1">
             <header class="gallery">Gallery</header>
@@ -31,24 +33,24 @@
        <img src="images/R.jpeg" alt="">
        <h3>2023 highlights</h3>
        <div class="content">
-          
-          <a class="ll" href="highlights.html">20  photos</a>
+          <i class='bx bxs-camera'></i>
+          <a class="ll" href="highlights.html">20 more photos</a>
        </div>
       </div>
      <div class="pic">
        <img src="images/red.webp" alt="">
        <h3>Red Carpet</h3>
        <div class="content">
-        
-          <a class="ll" href="redcarpet.html">20 photos</a>
+          <i class='bx bxs-camera'></i>
+          <a href="redcarpet.html">20 photos</a>
        </div>
       </div>
      <div class="pic">
        <img src="images/perf.jpeg" alt="">
        <h3>IMA Performense</h3>
        <div class="content">
-         
-          <a class="ll" href="performence.html">20 photos</a>
+         <i class='bx bxs-camera'></i>
+          <a href="performence.html">20 photos</a>
        </div>
      </div>
   </div>
@@ -65,8 +67,8 @@
          <video src="video/4.mp4" controls autoplay mutes class="vv2"></video>
          <h3>Performances Highlight </h3>
           <div class="content">
-            
-             <a class="ll" href="performencehlight.html">5 Videos</a>
+            <i class='bx bxs-video'></i>
+             <a href="performencehlight.html">5 Videos</a>
            </div>
         </div>
     
@@ -75,8 +77,8 @@
             <video src="video/6.mp4" controls autoplay muted class="vv2"></video>
              <h3>Winners 2023</h3>
           <div class="content">
-            
-              <a class="ll" href="winners.html">5 Videos</a>
+            <i class='bx bxs-video'></i>
+              <a href="winners.html">5 Videos</a>
            </div>
         </div>
 
@@ -84,8 +86,8 @@
           <video src="video/4.mp4" controls autoplay muted class="vv2"></video>
          <h3>Host Rewind</h3>
           <div class="content">
-      
-               <a class="ll" href="hostrewind.html">5 Videos</a>
+            <i class='bx bxs-video'></i>
+               <a href="hostrewind.html">5 Videos</a>
            </div>
       </div>
    </div>   
