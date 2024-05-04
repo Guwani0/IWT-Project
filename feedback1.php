@@ -10,9 +10,10 @@
     <body>
         <?php
 
-    require 'configure.php';
-    
+        require 'configure.php';
+
         ?>
+        
       <div class="logo">
         <img src="images/Two.png" alt="Logo" height="100px" width="100px"  >
       </div>
