@@ -33,11 +33,6 @@
 <head>
   <meta charset="utf-8">
   <title>Login</title>
-  <!-- <link rel="stylesheet" href="./css/auth_style.css"> -->
-
-  <style media="screen">
-
-  </style>
 </head>
 
 <body>
@@ -45,16 +40,15 @@
     <h1>
       <center>Login
     </h1><br>
-    <center><button type="submit">User&nbsp;</button>
-      <button type="submit">Publisher</button>
-    </center><br><br>
-    <lable>Email</lable>
-    <input type="text" id="email" name="useremail">
-    <lable>Password</lable>
-    <input type="text" id="password" name="password"><br><br>
+
+    <button type="submit">User&nbsp;</button>
+    <button type="submit">Admin</button> <br><br>
+
+    <input type="text" id="email" name="useremail" placeholder="User Email">
+    <input type="password" id="password" name="password" placeholder="User Password"><br><br>
 
     <p><input type="checkbox" id="rememberme" name="rememberme">
-      Remember me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="kofie">Forgot password?</a></p><br>
+    Remember me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="kofie">Forgot password?</a></p><br>
     <center><button type="submit" name="submit">LOGIN</button>
       <center>
         <h5>

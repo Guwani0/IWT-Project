@@ -2,7 +2,30 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;  
 }
+
+.logsignbutton{     
+    display: flex;
+    float: right;
+  }
+
+.logsignbutton{
+    border-radius: 10px;
+    background-color:#FFC100; 
+    outline: none;
+    border: none;
+    width: 180px;
+    height: 40px;
+    margin-top: 50px;
+    margin-right:20px;
+    font-size: 20px;
+    color: white;
+}
+.logsignbtn:hover{
+    background-color:#FFE569;
+    color: #382b0f;
+  }
 
 .background{
     position:fixed;
@@ -25,7 +48,7 @@
 
 .container{
     position:absolute;
-    top:700px;
+    top:550px;
     left:50%;
     transform: translate(-50%, -50% ); /*creates new stacking context*/
     width:1000px;
@@ -242,11 +265,11 @@
     font-weight: bold;
   }
 
-  .btn a{
+  a {
     text-decoration: none; 
     color: #ffffff; 
   }
   
-  .btn a:hover {
+  a:hover {
     color: #000000; /* Optional: Changes color on hover */
   }

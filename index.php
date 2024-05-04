@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles\header.css">
+    <link rel="stylesheet" href="styles/navigation.css">
     <link rel="stylesheet" type="text/css" href="styles/indexstyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
@@ -12,11 +12,7 @@
 </head>
 
 <body>
-    <div class="logsignbutton">
-            <a href="login crud.php"><button class="logsignbtn" style="margin-left: 295px;">Login</button></a>
-            <a href="signup.php"><button class="logsignbtn">Signup</button></a>
-        </div>
-        
+ 
     <?php
     session_start();
     require 'configure.php';
@@ -30,25 +26,29 @@
     //     exit();
     // }
     ?>
+    <header class="header">
 
+        <nav class="navbar">
+            <a href="#">  Home </a> 
+            <a href="#"> IMA 2024 </a> 
+            <a href="#"> Archives </a> 
+            <a href="#"> Gallery </a> 
+            <a href="#"> The IMA Story </a> 
+            <a href="#"> Download The App </a> 
+            <a href="#"> Contact Us </a> 
+            <div class="logsign">
+                <a href="logincrud.php"> Login </a> 
+                <a href="signup.php"> SignUp </a> 
+            </div>
+        </nav>
+    </header>
 
-    <div class="background">
+    <div class="ima">
+        <img src="images/ima.png">
     </div>
-    <div>
-        <h1 class="title"> International Music  Awards </h1> </br>
-    </div>
-    <nav class="navbar">
-        <ul> 
-            <li> <a href="index.php">  Home </a> </li>
-            <li> <a href="#"> IMA 2024 </a> </li>
-            <li> <a href="#"> Archives </a> </li>
-            <li> <a href="#"> Gallery </a> </li>
-            <li> <a href="#"> The IMA Story </a> </li>
-            <li> <a href="#"> Download The App </a> </li>
-            <li> <a href="#"> Contact Us </a> </li>
-        </ul>
-    </nav>
-
+    <div class="awardimg">
+        <img src="images/trophy.png" width="80px">     
+    </div>    
     <div class="container">
     <div class="slide">
 
@@ -99,7 +99,9 @@
         <h1>Who deserves the best?</h1> <br>
         <h3 style="font-family: Arial, Helvetica, sans-serif;"> You decide! Join us to vote! </h3> 
 
-        <button class="btn"> <a href="signup.php"> Create Account </a> </button>
+        <button class="btn"> 
+            <a href="signup.php"> Create Account </a> 
+        </button>
     </div>
 </body>
 </html>
