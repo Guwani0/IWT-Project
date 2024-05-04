@@ -8,7 +8,11 @@
         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     </head>
     <body>
-        
+        <?php
+
+    require 'configure.php';
+    
+        ?>
       <div class="logo">
         <img src="images/Two.png" alt="Logo" height="100px" width="100px"  >
       </div>
