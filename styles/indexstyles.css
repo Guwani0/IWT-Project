@@ -5,6 +5,29 @@
     font-family:Georgia, 'Times New Roman', Times, serif;  
 }
 
+.logsignbutton{     
+    display: flex;
+    float: right;
+  }
+
+.logsignbtn{
+    border-radius: 10px;
+    background-color:#FFC100; 
+    outline: none;
+    border: none;
+    width: 180px;
+    height: 40px;
+    margin-top: 50px;
+    margin-right:20px;
+    font-size: 20px;
+    color: white;
+  }
+
+.logsignbtn:hover{
+    background-color:#FFE569;
+    color: #382b0f;
+  }
+
 .background{
     position:fixed;
     top: 0;
@@ -22,6 +45,7 @@
     overflow-y: auto;
     z-index: -1;
 }
+
 
 .container{
     position:absolute;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" href="styles\header.css">
     <link rel="stylesheet" type="text/css" href="styles/indexstyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
@@ -12,26 +12,28 @@
 </head>
 
 <body>
-    <?php
-    session_start();
-    require 'configure.php';
-    if(!empty($_SESSION['email'])){
-        $email = $_SESSION["email"];
-        $result = mysqli_query($con, "SELECT * FROM user WHERE Email = $email");
-        $row = mysqli_fetch_assoc($result);
-    }
-    // else{
-    //     header("location: login.php");
-    //     exit();
-    // }
-    ?>
-
-
+    <div class="logsignbutton">
+            <a href="login crud.php"><button class="logsignbtn" style="margin-left: 295px;">Login</button></a>
+            <a href="signup.php"><button class="logsignbtn">Signup</button></a>
+        </div>
+        
     <div class="background">
     </div>
+    <div>
+        <h1 class="title"> International Music  Awards </h1> </br>
+    </div>
+    <nav class="navbar">
+        <ul> 
+            <li> <a href="index.php">  Home </a> </li>
+            <li> <a href="#"> IMA 2024 </a> </li>
+            <li> <a href="#"> Archives </a> </li>
+            <li> <a href="#"> Gallery </a> </li>
+            <li> <a href="#"> The IMA Story </a> </li>
+            <li> <a href="#"> Download The App </a> </li>
+            <li> <a href="#"> Contact Us </a> </li>
+        </ul>
+    </nav>
 
-    <?php include 'Header.php'?>;
-   
     <div class="container">
     <div class="slide">
 
