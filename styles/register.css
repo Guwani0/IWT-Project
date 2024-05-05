@@ -1,0 +1,91 @@
+.login-box{
+    /*backdrop-filter: blur(6px);*/
+    /*background-color: rgba(255, 255, 255, 0.158);*/
+    border-radius: 7px;
+    padding: 55px;
+    margin-top: 110px;
+    top: 60%;
+    width: 500px;
+    border: 1px solid black;
+    box-shadow: 0px 20px 35px rgba(236, 236, 238, 0.288);
+    margin-left: 370px;
+}
+h1.header1{
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    width: 100%;
+    border: black;
+}
+.admin{
+    background-color:darkorange;
+    width: 80px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.admin button{
+    margin-left: 65px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"]{
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    background: transparent;
+    outline: none;
+    color:#ffffff; 
+}
+
+input::placeholder {
+    color: #ffffff; 
+}
+
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.ReFo{
+    color: white;
+    font-size: small;
+}
+.ReFo a{
+    text-decoration: none;
+    color: white;
+}
+
+/*button.btn{
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: white;
+    outline: black;
+}*/
+.su{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background:#f0840a;
+    outline: black;
+    font-family: Future;
+    font-size: 20px;
+}
+.para1{
+    color: white;
+}
