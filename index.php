@@ -121,6 +121,7 @@
                 <li><a href="">Download The App</a></li>
                 <li><a href="">About Us</a></li>
                 <li><a href="">Contact Us</a></li>
+                <li><a href=""> FAQ </a></li>
             </ul>
         </div>
         
