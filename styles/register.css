@@ -23,11 +23,16 @@ h1.header1{
     width: 80px;
     height: 30px;
     color: white;
-    margin-left: 200px;
     border-radius: 10px;
 }
+
+.admin button{
+    margin-left: 65px;
+}
 input[type="text"],
-input[type="password"]{
+input[type="password"],
+input[type="email"],
+input[type="date"]{
     width: 100%;
     padding: 8px 0;
     margin-bottom: 10px;
@@ -35,11 +40,19 @@ input[type="password"]{
     border-bottom: 2px solid #ffffff;
     background: transparent;
     outline: none;
-}
-input::placeholder {
-    color: #ffffff; /* Light gray */
+    color:#ffffff; 
 }
 
+input::placeholder {
+    color: #ffffff; 
+}
+
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
 .ReFo{
     color: white;
     font-size: small;
@@ -47,9 +60,8 @@ input::placeholder {
 .ReFo a{
     text-decoration: none;
     color: white;
-
-
 }
+
 /*button.btn{
     width: 100%;
     padding: 8px 0;

@@ -11,7 +11,7 @@ require 'configure.php';
     <link rel="stylesheet" href="styles/navigation.css">
     <link rel="stylesheet" type="text/css" href="styles/profile.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Profile</title>
+  <title>Profile| IMA 2024</title>
  
 </head>
 <body>
@@ -47,45 +47,41 @@ require 'configure.php';
        <span id="result-FirstName" ><h4> First Name       : </h4></span><?php echo $FirstName;?><br><br>
        <span id="result-LastName" ><h4> Last Name      :</h4></span><?php echo $LastName;?><br><br>
        <span id="result-email" > <h4> Email             : </h4></span><?php echo $Email;?><br><br> 
-        <span id="result-phoneNumber" ><h4> Contact Number :</h4></span><?php echo $ContactNumber;?><br><br>
+       <span id="result-phoneNumber" ><h4> Contact Number :</h4></span><?php echo $ContactNumber;?><br><br>
       
   </div><br>
 
-  <!--<button><h3><a href="settings page.html">Edit profile</a></h3></button>-->
-
-  <a href="settings page.php"><input class="button1" type="submit" name="updateProfile" value="Update Profile"></a>
-  <!--<button><h3><a href="delete.php?deleteemail=' . $Email . '">Delete Account</a></h3></button>-->
-
- <a href="delete.html"><input class="button1" type="submit" name="deleteProfile" value="Delete Profile"></a>
- <footer>
-    <div class="footerContainer">
-        <div class="socialIcons">
-            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.google.com/"><i class="fa-brands fa-google-plus"></i></a>
-            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+    <a href="edit.php"> <input class="button1" type="submit" name="editProfile" value="Edit Profile"></a>
+    <a href="delete.php"> <input class="button1" type="submit" name="deleteProfile" value="Delete Profile"></a>
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.google.com/"><i class="fa-brands fa-google-plus"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul><li><a href="index.php">Home</a></li>
+                    <li><a href="">Download The App</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href=""> FAQ </a></li>
+                </ul>
+            </div>
+            
         </div>
-        <div class="footerNav">
-            <ul><li><a href="index.php">Home</a></li>
-                <li><a href="">Download The App</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href=""> FAQ </a></li>
-            </ul>
+        <div class="footerBottom">
+            <p>&copy; 2024 IMA Media Networks, a division of IMA Global Inc. All Rights Reserved.</p>
         </div>
-        
-    </div>
-    <div class="footerBottom">
-        <p>&copy; 2024 IMA Media Networks, a division of IMA Global Inc. All Rights Reserved.</p>
-    </div>
-</footer>
+    </footer>
 
-</body>
-<?php
-}
-?>
+    </body>
+    <?php
+    }
+    ?>
 
-   
-  
+    
+    
 </html>
