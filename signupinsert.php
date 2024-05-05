@@ -21,8 +21,8 @@
 
     if($userPassword == $reuserPassword)
         {
-            $query = "INSERT INTO registered_user (First_Name, Last_Name, Email, Contact_No, DOB, Country, U_password ) VALUES(' $firstName', '$lastName', '$number','$birth','$cont','$userPassword')";
-            //mysqli_query($con, $query);
+            $query = "INSERT INTO registered_user (First_Name, Last_Name, Email, Contact_No, DOB, Country, U_password ) VALUES(' $firstName', '$lastName','$email', '$number','$birth','$cont','$userPassword')";
+            mysqli_query($con, $query);
             echo "<script> alert('Registration Successful'); </script>";
             header("Location: postlogin.php");   
         }
@@ -30,6 +30,7 @@
         {
             echo "<script> alert('Passwords do not match! Please try again.'); window.history.back();</script>";
             exit();
-        }
-      }
+    }
+}
 ?>
+

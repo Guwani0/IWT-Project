@@ -41,7 +41,7 @@
             <a href="#"> Download The App </a> 
             <a href="#"> Contact Us </a> 
             <div class="logsign">
-                <a href="logincrud.php" style="margin-left:-50px; "> Login </a> 
+                <a href="login.php" style="margin-left:-50px; "> Login </a> 
                 <a href="signup.php" style="margin-left:40px; "> SignUp </a> 
             </div>
         </nav>

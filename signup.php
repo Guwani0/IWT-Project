@@ -20,7 +20,7 @@
     <input type="submit" value="SIGN UP"> <br> <br>
 
     Already have an account? <br> <br>
-    <button> LOG IN </button>
+    <button> <a href="login.php"> LOG IN </button>
     </form>
 
     </body>

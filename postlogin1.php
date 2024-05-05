@@ -14,7 +14,6 @@
 </head>
 
 <body>
-    <script> alert('Registration Successful'); </script>";
     <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
     <header class="header">
 
@@ -26,9 +25,6 @@
             <a href="#"> The IMA Story </a> 
             <a href="#"> Download The App </a> 
             <a href="#"> Contact Us </a> 
-            <div class="logsign">
-                <a href="login.php" style="margin-left:1px; "> Login </a> 
-            </div>
         </nav>
     </header>
     
@@ -85,11 +81,11 @@
         <div class="text">
             <h1 data-text="IMA 2024">IMA 2024</h1>
         </div>
-        <h1 style="margin-top:100px">Who deserves the best?</h1> <br>
-        <h3 style="font-family: Arial, Helvetica, sans-serif;"> You decide! Join us to vote! </h3> 
+        <h1 style="margin-top:100px"> Nominees are up!</h1> <br>
+        <h3 style="font-family: Arial, Helvetica, sans-serif;"> Vote for your favorite now! </h3> 
 
         <button class="btn"> 
-            <a href="login.php"> Login to Vote Now! </a> 
+            <a href="vote.php"> Vote </a> 
         </button>
     </div>
     <footer>
