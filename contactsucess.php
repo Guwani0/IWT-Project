@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/contact.css">
+        <link rel="stylesheet" href="styles/contactsucess.css">
         <link rel="stylesheet" href="styles/demoamath.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -38,20 +38,12 @@
             </div>
             <div class="right">
                 <div class="sqr">
-                    <div><p class="p3">Couldn't find an answer to your problem?<br><br>
-                    Don't let obstacles hold your business back. Reach out to us today and let our online voting system be the solution to your problems. 
-                    We are eager to assist you and provide you a better user experience.</p></div>
-                <form action="inquiry.php" method="post">
-                <label for="name">Name</label><br>
-                <input type="text" name="name" required><br>
-                <label for="email">Email</label><br>
-                <input type="text" name="email" required><br>
-                <label for="subject">Subject</label><br>
-                <input type="text" name="subject" required><br>
-                <label for="message">Message</label><br>
-                <textarea id="message" name="message" rows="4"></textarea> <br>
-                <input type="submit" value="Sumbit">
-            </form>
+                    <div><p class="p3">Successfully submitted</p><br><br>
+                    <p class="p4">If you want to edit your inquiry</p>
+                <button class="btn2" type="submit" value="Edit">EDIT</button>
+                </div>
+                <p class="p4">If you want to delete your inquiry</p>
+                
                 </div>
             </div>
         </div>
@@ -69,6 +61,7 @@
                 <li><a href="">Download The App</a></li>
                 <li><a href="">About Us</a></li>
                 <li><a href="">Contact Us</a></li>
+                <li><a href="">FAQ</a></li>
             </ul>
         </div>
         

@@ -1,21 +1,21 @@
 <?php
-
     require 'configure.php';
 
-    $uName=$_POST["name"];
-    $uEmail=$_POST["email"];
-    $uSubject=$_POST["subject"];
-    $uMessage=$_POST["message"];
-
-    $sql="INSERT INTO inquiry VALUES ('','$uName','$uEmail','$uSubject','$uMessage')";
-
-    if($con->query($sql))
+    if(isset($_POST))
     {
-        echo "Insert Succesful";
+        $uName=$_POST["name"];
+        $uEmail=$_POST["email"];
+        $uSubject=$_POST["subject"];
+        $uMessage=$_POST["message"];
+    
+        $sql="INSERT INTO contact (Name, Email, Subject, Message)VALUES ('$uName','$uEmail','$uSubject','$uMessage')";
+        mysqli_query($con, $sql);
+        echo "<script> alert('Submitted Successfully'); </script>";
+        header("location: contactus.php");
+        exit();
     }
-    else{
-        echo "Error" .$con->error;
-    }
-
-    $con->close();
+        else{
+            echo "<script> alert('Not Submitted'); window.history.back();</script>";
+            exit();
+        }  
 ?>
