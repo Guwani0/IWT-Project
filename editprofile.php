@@ -1,29 +1,42 @@
+
+
 <?php
-    include 'connect.php';
-    $id=$_POST['updateid'];
-    $sql="SELECT * from registered_user where id=$id";
+require 'configure.php';
+session_start();
+
+if(!empty($_SESSION['sessionid'])) {
+    $sessionid = $_SESSION["sessionid"];
+    $result = mysqli_query($con, "SELECT * FROM registered_user WHERE ID = '$sessionid'");
+    $row = mysqli_fetch_assoc($result);
+} 
+
+$id = $row['ID'];
+
+    // $id=$_POST['id'];
+    $sql="SELECT * from `registered_user` where ID=$id";
     $result=mysqli_query($con,$sql);
     $row=mysqli_fetch_assoc($result);
-    $name=$row['name'];
-    $email=$row['email'];
-    $mobile=$row['mobile'];
-    $password=$row['password'];
+    $fname=$row['First_Name'];
+    $lname=$row['Last_Name'];
+    $email=$row['Email'];
+    $mobile=$row['Contact_No'];
+    $password=$row['U_password'];
 
 if(isset($_POST['submit']))
 {
-    $name = $_POST['name'];
+    $fname = $_POST['firstname'];
+    $lname = $_POST['lastname'];
     $email = $_POST['email'];
     $mobile = $_POST['mobile'];
     $password = $_POST['password'];
 
-    $sql="update `crud` set id=$id, name='$name', email='$email', mobile='$mobile', password='$password'
-    where id=$id";
+    $sql="update `registered_user` set First_Name='$fname',Last_Name='$lname', Email='$email', Contact_No='$mobile', U_password='$password' where id=$id";
 
     $result=mysqli_query($con,$sql);
     if($result)
     {
-        //echo"Updated successfully";
-        header('location:display.php');
+        echo"Updated successfully";
+        // header('location:display.php');
     }
     else
     {
@@ -46,9 +59,15 @@ if(isset($_POST['submit']))
         <form method="post">
        
         <div class="form-group">
-            <label>Neme</label><br>
+            <label>First Name </label><br>
             <input type="text" class="form-control" placeholder="Enter Your Name" 
-            name="name" value=<?php echo $name;?>><br>
+            name="firstname" value=<?php echo $fname;?>><br>
+        </div>        
+        
+        <div class="form-group">
+            <label>Last Name</label><br>
+            <input type="text" class="form-control" placeholder="Enter Your Name" 
+            name="lastname" value=<?php echo $lname;?>><br>
         </div>
 
         <div class="form-group">
@@ -68,7 +87,6 @@ if(isset($_POST['submit']))
             <input type="text" class="form-control" placeholder="Enter Your Password" 
             name="password" value=<?php echo $password;?>><br>
         </div>
-            
         <br><br><button type="submit" class="btn btn-primary" name="submit">Update</button>
         </form>
     </div>

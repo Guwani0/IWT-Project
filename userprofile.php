@@ -1,6 +1,15 @@
+
 <?php
 require 'configure.php';
+session_start();
+
+if(!empty($_SESSION['sessionid'])) {
+    $sessionid = $_SESSION["sessionid"];
+    $result = mysqli_query($con, "SELECT * FROM registered_user WHERE ID = '$sessionid'");
+    $row = mysqli_fetch_assoc($result);
+} 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,20 +43,10 @@ require 'configure.php';
    
     <div class="profile">
 
-      <?php
-      $sql = "select * from registered_user ;";
-      $result = mysqli_query( $con,$sql);
-      while ($row = mysqli_fetch_array($result)) {
-        $ID = $row['ID'];
-        $FirstName = $row['First_Name'];
-        $LastName = $row['Last_Name'];
-        $Email = $row['Email'];
-        $ContactNumber = $row['Contact_No'];
-    ?>
-       <span id="result-FirstName" ><h4> First Name       : </h4></span><?php echo $FirstName;?><br><br>
-       <span id="result-LastName" ><h4> Last Name      :</h4></span><?php echo $LastName;?><br><br>
-       <span id="result-email" > <h4> Email             : </h4></span><?php echo $Email;?><br><br> 
-       <span id="result-phoneNumber" ><h4> Contact Number :</h4></span><?php echo $ContactNumber;?><br><br>
+       <span id="result-FirstName" ><h4> First Name       : </h4></span><?php echo $row["First_Name"]; ?><br><br>
+       <span id="result-LastName" ><h4> Last Name      :</h4></span><?php echo $row["Last_Name"]; ?><br><br>
+       <span id="result-email" > <h4> Email             : </h4></span><?php echo $row["Email"]; ?><br><br> 
+       <span id="result-phoneNumber" ><h4> Contact Number :</h4></span><?php echo $row["Contact_No"]; ?><br><br>
       
   </div><br>
 
@@ -78,9 +77,7 @@ require 'configure.php';
     </footer>
 
     </body>
-    <?php
-    }
-    ?>
+
 
     
     
