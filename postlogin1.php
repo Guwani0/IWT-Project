@@ -10,9 +10,18 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title> IMA|2024 </title>
+    <style>
+        .box{
+            transition:1s;
+        }
+
+        .box:hover{
+            transform:scale(1.3);
+            z-index: 2;
+        }
+        </style>
 
 </head>
-
 <body>
     <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
     <header class="header">
@@ -26,8 +35,10 @@
             <a href="#"> Download The App </a> 
             <a href="#"> Contact Us </a> 
         </nav>
+        <div class="box">
+            <a href="userprofile.php"> <img src="images/userimg.png" alt="User Profile" width="80px" style=" margin-left: 20px;" /> </a>
+        </div> 
     </header>
-    
     <div class="ima">
         <img src="images/ima.png">
     </div>
