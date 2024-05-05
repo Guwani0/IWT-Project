@@ -6,25 +6,23 @@
         <link rel="stylesheet" href="styles/gall.css">
         <link rel="stylesheet"
         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-        <link rel="stylesheet" href="styles/navigation.css">
+        <link rel="stylesheet" href="styles/stylesmain.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-      <header class="header">
+    <header class="header">
 
-        <nav class="navbar">
-            <a href="#">  Home </a> 
-            <a href="#"> IMA 2024 </a> 
-            <a href="#"> Archives </a> 
-            <a href="#"> Gallery </a> 
-            <a href="#"> The IMA Story </a> 
-            <a href="#"> Download The App </a> 
-            <a href="#"> Contact Us </a> 
-        </nav>
-    </header>
+<nav class="navbar">
+    <a href="#">  Home </a> 
+    <a href="#"> IMA 2024 </a> 
+    <a href="#"> Archives </a> 
+    <a href="#"> Gallery </a> 
+    <a href="#"> The IMA Story </a> 
+    <a href="#"> Download The App </a> 
+    <a href="#"> Contact Us </a> 
+</nav>
+</header>
 
-    
-        
       
     <div class="head">
           <div class="t1">
@@ -74,7 +72,7 @@
    <div class="product-container">
 
        <div class="vid">
-         <video src="video/4.mp4" controls autoplay mutes class="vv2"></video>
+         <video src="video/4.mp4" controls  mutes class="vv2"></video>
          <h3>Performances Highlight </h3>
           <div class="content">
             <i class='bx bxs-video'></i>
@@ -84,7 +82,7 @@
     
 
         <div class="vid">
-            <video src="video/6.mp4" controls autoplay muted class="vv2"></video>
+            <video src="video/6.mp4" controls  muted class="vv2"></video>
              <h3>Winners 2023</h3>
           <div class="content">
             <i class='bx bxs-video'></i>
@@ -93,7 +91,7 @@
         </div>
 
     <div class="vid">
-          <video src="video/4.mp4" controls autoplay muted class="vv2"></video>
+          <video src="video/4.mp4" controls  muted class="vv2"></video>
          <h3>Host Rewind</h3>
           <div class="content">
             <i class='bx bxs-video'></i>
@@ -124,7 +122,6 @@
         <p>&copy; 2024 IMA Media Networks, a division of IMA Global Inc. All Rights Reserved.</p>
     </div>
 </footer>
-
 
 
     </body>
