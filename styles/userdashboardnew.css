@@ -3,28 +3,6 @@
     text-align: center;
     color: white;
 }
-/*.p1 p{
-    position: relative;
-}
-.p1 p::before{
-    content:"Welcome";
-    color:#ff7f59;
-}
-.p1 p::after{
-     content: "";
-     position: absolute;
-     width: 10px;
-     height: 100%;
-     background-color: #2f3542;
-     border-left: 10px solid #ff7f59;
-     right: -8px;
-     animation: cursor.8s infinite;
-}
-@keyframes cursor{
-    to{
-        border-left: 2px solid #ff7f5000;
-    }
-}*/
 #btn1{
     border: white;
     color: black;

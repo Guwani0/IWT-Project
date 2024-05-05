@@ -19,7 +19,6 @@
 </style>
     </head>
     <body>
-    <?php include 'header.php'; ?>
 
     <div class="all">
             <h1><p class="p1">Welcome</p></h1>
