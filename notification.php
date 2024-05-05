@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../IWT-Project/styles/demosanjana.css">
-    <link rel="stylesheet" href="../IWT-Project/styles/passwordReset.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Password Reset</title>
-    <style>
-    
-
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../IWT-Project/styles/demosanjana.css">
+<link rel="stylesheet" href="../IWT-Project/styles/notification.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Notifications</title>
 </head>
 <body>
 <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
@@ -27,26 +23,20 @@
         </nav> 
     </header>
     <main>
-    <div class="container">
-        <h1>Password Reset</h1>
-        <form action="passwordResetCon" method="post" class="reset-form">
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="password" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="new-password">New Password:</label>
-                <input type="password" id="new-password" name="new-password" required>
-            </div>
-            <div class="form-group">
-                <label for="confirm-password">Confirm New Password:</label>
-                <input type="password" id="confirm-password" name="confirm-password" required>
-            </div>
-            <div class="form-group">
-                <button type="submit">Reset Password</button>
-            </div>
-        </form>
+  <div class="container">
+    <div class="notification">
+      <span class="title">Notification Title 1</span>
+      <div class="full-message">
+        This is the full notification message for Notification Title 1. You can customize it as needed.
+      </div>
     </div>
+    <div class="notification">
+      <span class="title">Notification Title 2</span>
+      <div class="full-message">
+        This is the full notification message for Notification Title 2. You can customize it as needed.
+      </div>
+    </div>
+  </div>
 </main>
 <footer>
     <div class="footerContainer">
@@ -73,3 +63,5 @@
 </footer>
 </body>
 </html>
+
+

@@ -3,104 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../IWT-Project/styles/demosanjana.css">
+    <link rel="stylesheet" href="../IWT-Project/styles/news.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>IMA News - Award Show News</title>
-    <style>
-        * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-image: url('../IWT-Project/images/back.png');
-    background-color:black;
-    background-size:cover; 
-    background-position:center;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    overflow-y: auto; 
-     
-}
-@font-face{
-    font-family:Future;
-    src: url(../IWT-Project/fonts/future.ttf);
-}
-.full{
-    font-family: Future;
-}
-
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    color:white;
-    text-align: center;
-    margin-top:30px;
-}
-
-main {
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 0 20px;
-}
-
-section {
-    margin-bottom: 40px;
-}
-
-h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: yellow;
-    
-}
-
-.artist, .announcer {
-    background-color: transparent;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    text-align: center;
-   
-}
-
-.artist img, .announcer img {
-    width: 200px;
-    border-radius: 20%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
-h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: white;
-}
-
-p {
-    font-size: 1em;
-    color: white;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-    </style>
 </head>
 <body>
-    <?php include 'Header.php'?>
+<img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
+    <header class="header">
+
+        <nav class="navbar">
+            <a href="#">  Home </a> 
+            <a href="#"> IMA 2024 </a> 
+            <a href="#"> Archives </a> 
+            <a href="#"> Gallery </a> 
+            <a href="#"> The IMA Story </a> 
+            <a href="#"> Download The App </a> 
+            <a href="#"> Contact Us </a> 
+        </nav> 
+    </header>
+    <main>
     <div class="full">
     
      <h1>IMA News</h1>
      <br><br><br><br><br>
     
-    <main>
         <section id="performers">
             <h2>Performing Artists</h2>
             <br><br><br><br><br>
@@ -119,7 +46,6 @@ footer {
                 <h3>Harry Styles</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis feugiat ipsum.</p>
             </div>
-            <!-- Add more artists here -->
         </section>
         <br><br><br><br><br><br><br><br><br><br>
         <section id="announcers">
@@ -140,12 +66,31 @@ footer {
                 <h3>Dwayne 'The Rock' Johnson</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis feugiat ipsum.</p>
             </div>
-            <!-- Add more announcers here -->
-        </section>
-    </main>
+        </section>       
+    </div>
+</main>
     <footer>
-        <p>&copy; 2024 IMA News. All rights reserved.</p>
-    </footer>
-</div>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.google.com/"><i class="fa-brands fa-google-plus"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="index.php">Home</a></li>
+                <li><a href="">Download The App</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>&copy; 2024 IMA Media Networks, a division of IMA Global Inc. All Rights Reserved.</p>
+    </div>
+</footer>
 </body>
 </html>

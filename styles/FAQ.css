@@ -1,0 +1,93 @@
+body {
+    background-image: url('../images/back.png');
+    background-color:black;
+    background-size:cover; 
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    font-family: Future;
+    position: absolute;
+    }
+
+
+    .box {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    position: relative; 
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: darkorange ;
+    
+}
+
+.faq {
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.question .arrow {
+    display: inline-block;
+    margin-left: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.question.active .arrow {
+    transform: rotate(45deg);
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    padding-left: 20px;
+    border-left: 2px solid #ccc;
+    color: white;
+}
+@font-face{
+    font-family:Future;
+    src: url('../fonts/future.ttf');
+}
+
+.feedback-button {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 2px solid darkorange;
+    border-color: darkorange;
+    border-radius: 10px;
+    float: right;
+    margin-right:50px;
+    transition: background-color 0.5s;
+}
+
+.feedback-button:hover {
+    background-color: darkorange;
+    color:black;
+}
+h3{
+    text-align:right;
+    color: darkorange;
+    margin-right:50px;
+}

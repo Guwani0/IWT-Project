@@ -3,56 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/ima_story.css">
-        <style>
-        body {
-    background-image: url('../IWT-Project/images/back.png');
-    background-color:black;
-    background-size:cover; 
-    background-position:center;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    overflow-y: auto;  
-}
-.textbox{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-family:Future;
-    font-size: 15px;
-    background-color:black;
-    text-align: center;
-    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.5);
-    padding: 7px;
-    
-}
-.subtitle{
-    font-size:x-large;
-    font-family:Future;
-    margin:auto;
-    text-align: center;
-    color: yellow;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-.awardpic{
-    display: block;
-    margin: 0 auto; 
-    border-radius: 8px;
-    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.5);
-}
-
-
-</style>
+        <link rel="stylesheet" href="../IWT-Project/styles/ima_story.css">
+        <link rel="stylesheet" href="../IWT-Project/styles/demosanjana.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>IMA Story</title>
     </head>
-
 <body>
-<?php include 'Header.php'?>
+<img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
+    <header class="header">
 
+        <nav class="navbar">
+            <a href="#">  Home </a> 
+            <a href="#"> IMA 2024 </a> 
+            <a href="#"> Archives </a> 
+            <a href="#"> Gallery </a> 
+            <a href="#"> The IMA Story </a> 
+            <a href="#"> Download The App </a> 
+            <a href="#"> Contact Us </a> 
+        </nav> 
+    </header>
+<main>
 <div class="float">
-<div class="header">
+<div class="headtop">
     <h1 class="headtext">IMA </h1>
     <img class="headlogo" src="../IWT-Project/images/mainLogo.png" alt="logo" width="100" heigh="100">
     <h1 class="headtext">  STORY</h1>
@@ -72,7 +44,7 @@ At the time of the awards formation, interscope was starting its golden era with
 <h2 class="subtitle">More about Interscope Records</h2>
 </div>
 <br><br><br><br>
-<div class="header">
+<div class="headtop">
    <img class="awardpic" src="../IWT-Project/images/artists3.jpeg" alt="artist pictures" width="" height="180"> 
    <img class="awardpic" src="../IWT-Project/images/interscope2.png" alt="artist pictures" width="" height="180">
 </div>
@@ -111,6 +83,30 @@ But if you really want to understand what drives us,<br> it’s <b>PASSION</b>.<
 </div>
 
 </div>
+</main>
 
+<footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.google.com/"><i class="fa-brands fa-google-plus"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="index.php">Home</a></li>
+                <li><a href="">Download The App</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>&copy; 2024 IMA Media Networks, a division of IMA Global Inc. All Rights Reserved.</p>
+    </div>
+</footer>
 </body>
 </html>

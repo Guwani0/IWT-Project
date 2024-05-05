@@ -1,0 +1,57 @@
+body {
+    background-image: url('../images/back.png');
+    background-color:black;
+    background-size:cover; 
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    font-family: Future;
+    position: absolute;
+    }
+    
+    @font-face{
+        font-family:Future;
+        src: url('../fonts/future.ttf');
+    }
+
+
+  .container {
+    max-width: 400px;
+    max-height: 500px;
+    margin: 50px auto;
+  }
+
+  .notification {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: black;
+    color: darkorange;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .notification:hover .full-message {
+    display: block;
+  }
+
+  .notification .title {
+    font-weight: bold;
+  }
+
+  .notification .full-message {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 123, 0, 0.904);
+    z-index: 1;
+  }
