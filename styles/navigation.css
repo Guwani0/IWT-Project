@@ -1,17 +1,7 @@
-.title{
-    color: gold;
-    text-align: center;
-    text-shadow:5px 5px 10px black;
-    margin-top: 50px;
-    font-size: 50px;
-    font-weight: bolder;
-}
-
 .header{
     position:absolute;
     top: 20px;
     left:180px;
-    width:150%;
     padding: 20px 50px;
     background-color:transparent;
     display:flex;
@@ -40,12 +30,12 @@ body{
 
 .navbar a{
     position: relative;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #ffffff;
     font-weight: 500;
     text-decoration: none;
-    margin-left:50px ;
+    margin-left:40px ;
 }
 
 .navbar a::before{
@@ -65,27 +55,109 @@ body{
 .awardimg{
     position: absolute;
     margin-left: 450px;
-    margin-top: 100px;
+    margin-top: -20px;
     width: 50px;
     height: 50px;
 }
 
 .ima{
-    position: absolute;
+    position:absolute;
     margin-left: 550px;
-    margin-top: 100px;
+    margin-top: 10px;
     width: 50px;
     height: 50px;
 }
 
 .logsign {
     position: relative;
-    font-size: 15px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     font-weight: 500;
     text-decoration: none;
     margin-left:50px ;
-    margin-left: 850px;
+    margin-left: 950px;
     margin-top: 50px;
 }
+
+.container footer{
+    background-color:transparent;
+}
+.footerContainer{
+    padding: 70px 30px 20px ;
+    justify-content:space-between;
+    background-color:#332a1c;
+    opacity: 0.8;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color:darkorange;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 1.5em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color:#fafafa;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color:#FFB000;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:rgb(255, 255, 255);
+    margin: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    color: #FFB000;
+    opacity: 0.7;
+}
+.footerBottom{
+    background-color:#ff8c00;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+.footerBottom p{
+    color: white;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+

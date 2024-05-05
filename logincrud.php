@@ -1,38 +1,49 @@
-<!-- 
-<!DOCTYPE html>
-<html lang="en">
+<?php
+session_start(); 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/header.css">
-    <title> IMA|Log In </title>
-</head>
-<form action="login.php" method="post">
-    <input type="text" name="useremail" placeholder="User Email" required><br><br>
-    <input type="password" name="userpassword" placeholder="User Password" required><br>
-    <div>
-        <a href="#" class="fp">Forgot password?</a>
-    </div>
-    <br><br>
-    <!-- <input type="submit" value="LOG IN"> -->
- <!--   <button type="submit" name="submit">LOGIN</button>
-    <p style="text-align: center;">Don't have an account?</p>
-    <button class="btn"><a href="#" class="su">SIGN UP</a></button>
-</form>
-</div>
-</body>
+require 'configure.php';
+if(isset($_POST['submit']))
+{
+  $email = $_POST['useremail'];
+  $password = $_POST['password'];
+  $result = mysqli_query($con, "SELECT * FROM user WHERE Email = '$email' OR U_password = '$password'");
+  $row = mysqli_fetch_assoc($result);
+  if(mysqli_num_rows($result) > 0)  
+  {
+    if($password == $row['U_password'])
+    {
+      $_SESSION['login'] = true;
+      $_SESSION['email'] = $row["Email"];
+    //   echo "<script> alert('Login Successful'); </script>";  
+      header("location: index.php");
+      exit();
+    }
 
-</html>
+    else{
+      echo
+      "<script> alert('Wrong Password'); </script>";
+      header("location: logincrud.php");
 
- -->
+    }
+  }  
+  else{
+    echo
+    "<script> alert('User Not Registered'); </script>";
+    header("location: logincrud.php");
+
+  }
+
+  
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login|IMA 2024</title>
 </head>
 
 <body>

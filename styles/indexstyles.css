@@ -25,13 +25,13 @@
 
 .container{
     position:absolute;
-    top:700px;
     left:50%;
     transform: translate(-50%, -50% ); /*creates new stacking context*/
     width:1000px;
     height:600px;
     background: #f5f5f5;
     box-shadow: 0 30px 50px #454545;
+    margin-top:500px;
 }
 
 .container .slide .item{
@@ -122,10 +122,10 @@
 }
 
 .space {
+    margin-top: 800px;
     color: rgb(238, 238, 238);
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 570px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
 }
 
 .text{
@@ -158,7 +158,7 @@
     width: 100%;
     text-align: center;
     position: absolute;
-    bottom: 20px;
+    bottom: -200px;
 }
 
 .button button{
@@ -250,3 +250,5 @@
   .btn a:hover {
     color: #000000; /* Optional: Changes color on hover */
   }
+
+ 

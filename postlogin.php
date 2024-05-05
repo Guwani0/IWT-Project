@@ -14,22 +14,8 @@
 </head>
 
 <body>
- 
-<?php
-    session_start();
-    require 'configure.php';
-    if(!empty($_SESSION['email'])){
-        $email = $_SESSION["email"];
-        $result = mysqli_query($con, "SELECT * FROM user WHERE Email = '$email'");
-        $row = mysqli_fetch_assoc($result);
-    } 
-    //else
-    //    header("location:login,php");
-    //exit()
-    ?>
-
-
-    <img src="images/logo.png" width="70px" style="margin-top:20px; margin-left:50px;">
+    <script> alert('Registration Successful'); </script>";
+    <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
     <header class="header">
 
         <nav class="navbar">
@@ -41,12 +27,11 @@
             <a href="#"> Download The App </a> 
             <a href="#"> Contact Us </a> 
             <div class="logsign">
-                <a href="logincrud.php" style="margin-left:-50px; "> Login </a> 
-                <a href="signup.php" style="margin-left:40px; "> SignUp </a> 
+                <a href="logincrud.php" style="margin-left:1px; "> Login </a> 
             </div>
         </nav>
     </header>
-
+    
     <div class="ima">
         <img src="images/ima.png">
     </div>
@@ -104,7 +89,7 @@
         <h3 style="font-family: Arial, Helvetica, sans-serif;"> You decide! Join us to vote! </h3> 
 
         <button class="btn"> 
-            <a href="signup.php"> Create Account </a> 
+            <a href="logincrud.php"> Login to Vote Now! </a> 
         </button>
     </div>
     <footer>
