@@ -17,8 +17,14 @@
     }
     .live{
         font-family:'Mono';
+        font-size: 17px;
         color: white;
     }
+
+    .line{
+        border-color: rgba(255, 179, 0, 0.262);
+    }
+
     .CAT{
         font-family:'Future';
         color: rgb(240, 220, 0);
@@ -39,19 +45,23 @@
         cursor:pointer;
         margin-left:100px;
         margin-right:30px;
-        transition:backgrounf-color 0.15s, color 0.15s;
+        transition:background-color 0.15s, color 0.15s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
 
     }
 
-    .BEST:hover{
+    .BEST:hover, .BEST:active, .BEST:focus{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.1);
+        transform:scale(1.1);
         background-color:rgb(240, 220, 0);
-        color:rgb(240, 220, 0);
+        color:rgba(255, 177, 20, 0.91);
     }
 
 
-    .BEST:active{
-        opacity:0.7;
-    }
+    
 
     .YEAR{
         background:url('../IWT-Project/images/Button.jpg');
@@ -67,18 +77,21 @@
         border-radius:20px;
         cursor:pointer;
         margin-right:30px;
-        transition:backgrounf-color 0.15s, color 0.15s;
+        transition:background-color 0.15s, color 0.15s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+
     }
 
-    .YEAR:hover{
+    .YEAR:hover, .YEAR:active, .YEAR:focus{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.1);
+        transform:scale(1.1);
         background-color:rgb(240, 220, 0);
-        color:rgb(240, 220, 0);
+        color:rgba(255, 177, 20, 0.91);
     }
 
-
-    .YEAR:active{
-        opacity:0.7;
-    }
 
     .POP{
         background:url('../IWT-Project/images/Button.jpg');
@@ -94,20 +107,23 @@
         border-radius:20px;
         cursor:pointer;
         margin-right:20px;
-        transition:backgrounf-color 0.15s, color 0.15s;
+        transition:background-color 0.15s, color 0.15s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+
         
         
     }
 
-    .POP:hover{
+   .POP:hover, .POP:active, .POP:focus{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.1);
+        transform:scale(1.1);
         background-color:rgb(240, 220, 0);
-        color:rgb(240, 220, 0);
+        color:rgba(255, 177, 20, 0.91);
     }
 
-
-    .POP:active{
-        opacity:0.7;
-    }
 
     .SONG{
         background:url('../IWT-Project/images/Button.jpg');
@@ -124,18 +140,21 @@
         cursor:pointer;
         margin-left: 100px;
         margin-right:30px;
-        transition:backgrounf-color 0.15s, color 0.15s;
+        transition:background-color 0.15s, color 0.15s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+
     }
 
-    .SONG:hover{
+   .SONG:hover, .SONG:active, .SONG:focus{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.1);
+        transform:scale(1.1);
         background-color:rgb(240, 220, 0);
-        color:rgb(240, 220, 0);
+        color:rgba(255, 177, 20, 0.91);
     }
 
-
-    .SONG:active{
-        opacity:0.7;
-    }
 
     .GROUP{
         background:url('../IWT-Project/images/Button.jpg');
@@ -151,17 +170,19 @@
         border-radius:20px;
         cursor:pointer;
         margin-right:30px;
-        transition:backgrounf-color 0.15s, color 0.15s;
+        transition:background-color 0.15s, color 0.15s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+
     }
 
-    .GROUP:hover{
+   .GROUP:hover, .GROUP:active, .GROUP:focus{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.1);
+        transform:scale(1.1);
         background-color:rgb(240, 220, 0);
-        color:rgb(240, 220, 0);
-    }
-
-
-    .GROUP:active{
-        opacity:0.7;
+        color:rgba(255, 177, 20, 0.91);
     }
 
     .ALBUM{
@@ -178,18 +199,21 @@
         border-radius:20px;
         cursor:pointer;
         margin-right:20px;
-        transition:backgrounf-color 0.15s, color 0.15s;
+        transition:background-color 0.15s, color 0.15s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+
     }
 
-    .ALBUM:hover{
+    .ALBUM:hover, .ALBUM:active, .ALBUM:focus{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.1);
+        transform:scale(1.1);
         background-color:rgb(240, 220, 0);
-        color:rgb(240, 220, 0);
+        color:rgba(255, 177, 20, 0.91);
     }
 
-
-    .ALBUM:active{
-        opacity:0.7;
-    }
 
     body {
     background-image: url('../IWT-Project/images/back.png');
@@ -217,6 +241,7 @@
  <?php include 'Header.php'?>
  <div class="float">
     <p class="live"><marquee><b>Pick your favourite now! Tune in LIVE Sunday, June 15th at 987 C PTV to see who wins!</b></marquee></p>
+    <hr class="line">
     <center><h1 class="CAT">SELECT CATEGORY</h1></center>
     <br> <br> <br>
     <button class="BEST">
