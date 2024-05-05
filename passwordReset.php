@@ -29,18 +29,14 @@
     <main>
     <div class="container">
         <h1>Password Reset</h1>
-        <form action="passwordResetCon" method="post" class="reset-form">
+        <form action="passwordResetCon.php" method="post" class="reset-form">
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="password" id="email" name="email" required>
             </div>
             <div class="form-group">
-                <label for="new-password">New Password:</label>
-                <input type="password" id="new-password" name="new-password" required>
-            </div>
-            <div class="form-group">
-                <label for="confirm-password">Confirm New Password:</label>
-                <input type="password" id="confirm-password" name="confirm-password" required>
+                <label for="newpassword">New Password:</label>
+                <input type="password" id="newpassword" name="newpassword" required>
             </div>
             <div class="form-group">
                 <button type="submit">Reset Password</button>

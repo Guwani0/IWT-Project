@@ -1,33 +1,25 @@
 <?php
 
-include 'configure.php';
+require 'configure.php';
 
-function updatePassword($email, $newPassword) {
-    
-    // Sanitize input to prevent SQL injection
-    $email = $conn->real_escape_string($email);
-    $newPassword = $conn->real_escape_string($newPassword);
+    $email=$_POST["email"];
+    $newPassword=$_POST["newpassword"];
 
-    // Hash the new password before storing it
-    $hashedPassword = password_hash($newPassword, PASSWORD_DEFAULT);
+    if(empty($email)|| empty($newPassword))
+    {
+        echo "All Required";
+    }
+    else{
+        $sql="UPDATE registered_user set U_password='$newPassword' WHERE Email='$email'";
 
-    // Update password in the database
-    $sql = "UPDATE users SET password = '$hashedPassword' WHERE email = '$email'";
-
-    if ($conn->query($sql) === TRUE) {
-        echo "Password updated successfully!";
-    } else {
-        echo "Error updating password: " . $conn->error;
+        if($con->query($sql))
+        {
+            echo '<script>alert("Password updated successfully!");</script>';
+        }
+        else{
+            echo "Not Updated";
+        }
     }
 
-    // Close the database connection
-    $conn->close();
-}
-
-// Example usage
-$email = "user@example.com";
-$newPassword = "newPassword123";
-
-updatePassword($email, $newPassword);
-
+    
 ?>

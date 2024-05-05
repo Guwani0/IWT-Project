@@ -1,90 +1,87 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Navigation Bar</title>
-        <style>
-            *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-  font-family:Future;
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/userdashboardnew.css">
+        <title>User Dashbord | IMA</title>
+        <style>body {
+    background-image: url('../IWT-Project/images/back.png');
+    background-color:black;
+    background-size:cover; 
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+}
+h1{
+  text-align:center;
+  color:darkorange;
 }
 
-@font-face{
-    font-family:Future;
-    src: url(../IWT-Project/fonts/Unbounded/future.ttf);
-}
-
-body{
-  background-color: #3c3b41;
-}
-
-.wrapper{
-  display: flex;
-  position: relative;
-  position: relative;
- 
-}
-
-.wrapper .sidebar{
-  width: 100%;
-  height: 15%;
-  background: #242428;
-  padding: 30px 0px;
-
-  font-family: Future;
-}
-
-.wrapper .sidebar h2{
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 5px;
-  
-}
-
-.wrapper .sidebar ul li{
-  padding: 15px;
-  border-bottom: 1px solid #bdb8d7;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-  border-top: 1px solid rgba(255,255,255,0.05);
-}    
-
-.wrapper .sidebar ul li a{
-  color: white;
-  display: block;
-}
-
-.wrapper .sidebar ul li:hover{
-  background-color: yellow;
+.btn1{
+    border: orange;
+    color: black;
+    margin-left: 135px;
+    border-radius: 7px;
+    border-style: groove;
+    height: 30px;
+    width: 90px;
+    background-color:darkorange;
 
 }
+.btn:hover {
+background-color: black;
+color:darkorange;
+}
+
+.box2{
+    padding: 5px;
+    box-shadow: 0px 20px 35px rgba(236, 236, 238, 0.9);
+    border-radius: 7px;
+    /*background-color: rgba(255, 217, 0, 0.527);*/
+    background-color: black;
+    border: 2px solid black;
+    width: 350px;
+    margin-top: 110px;
+    margin: auto;
     
-.wrapper .sidebar ul li:hover a{
-  color: yellow;
+}
+
+.p1{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+.btn2{
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    width: 350px;
+    border-radius: 8px;
+    height: 50px;
+    background-color: darkorange;
+    color:white;
 }
 </style>
-</head>
+    </head>
 
-<body>
-
-<div class ="wrapper">
-    <div class="sidebar">
-        <h2>Admin</h2>
-        <ul>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#"></a>Overview of nominations</li>
-            <li><a href="#"></a>Overview of categories</li>
-            <li><a href="#"></a>Voting Status</li>
-            <li><a href="#"></a>Notification Center</li>
-            <li><a href="#"></a>IMA Organization</li>
-            <li><a href="#"></a>Settings</li>
-        </ul> 
+    <body>
+    <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:580px;">
+    <br>
+    <h1>International Music Awards</h1>
+    <div class="all">
+            
+            <div class="box2">
+                <p class="p1">Admin Dashboard</p>
+                <button class="btn2">Profile</button><br>
+                <button class="btn2">Manage Categories</button><br>
+                <button class="btn2">Manage Nominees</button>
+                <button class="btn1">Sign out</button>
+                <script src="js/userdashboard.js"></script>
+            </div>
     </div>
-</div>
-
-</body>
+    </body>
 </html>
+
