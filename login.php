@@ -22,14 +22,14 @@ if(isset($_POST['submit']))
     else{
       echo
       "<script> alert('Wrong Password'); </script>";
-      header("location: login.php");
+      // header("location: login.php");
 
     }
   }  
   else{
     echo
     "<script> alert('User Not Registered'); </script>";
-    header("location: login.php");
+    // header("location: login.php");
 
   }
 
