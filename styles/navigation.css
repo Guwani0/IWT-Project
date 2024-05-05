@@ -88,6 +88,7 @@ body{
     justify-content:space-between;
     background-color:#332a1c;
     opacity: 0.8;
+    margin-top: 60px;
 }
 .socialIcons{
     display: flex;
