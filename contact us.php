@@ -41,13 +41,13 @@
                     <div><p class="p3">Couldn't find an answer to your problem?<br><br>
                     Don't let obstacles hold your business back. Reach out to us today and let our online voting system be the solution to your problems. 
                     We are eager to assist you and provide you a better user experience.</p></div>
-                <form action="contact us.php" method="post">
+                <form action="inquiry.php" method="post">
                 <label for="name">Name</label><br>
-                <input type="text" required><br>
+                <input type="text" name="name" required><br>
                 <label for="email">Email</label><br>
-                <input type="text" required><br>
-                <label for="subject">subject</label><br>
-                <input type="text" required><br>
+                <input type="text" name="email" required><br>
+                <label for="subject">Subject</label><br>
+                <input type="text" name="subject" required><br>
                 <label for="message">Message</label><br>
                 <textarea id="message" name="message" rows="4"></textarea> <br>
                 <input type="submit" value="Sumbit">
