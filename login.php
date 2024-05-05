@@ -6,7 +6,7 @@ if(isset($_POST['submit']))
 {
   $email = $_POST['useremail'];
   $password = $_POST['password'];
-  $result = mysqli_query($con, "SELECT * FROM user WHERE Email = '$email' OR U_password = '$password'");
+  $result = mysqli_query($con, "SELECT * FROM registered_user WHERE Email = '$email' OR U_password = '$password'");
   $row = mysqli_fetch_assoc($result);
   if(mysqli_num_rows($result) > 0)  
   {

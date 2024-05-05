@@ -20,7 +20,7 @@
     require 'configure.php';
     if(!empty($_SESSION['email'])){
         $email = $_SESSION["email"];
-        $result = mysqli_query($con, "SELECT * FROM user WHERE Email = '$email'");
+        $result = mysqli_query($con, "SELECT * FROM registered_user WHERE Email = '$email'");
         $row = mysqli_fetch_assoc($result);
     } 
     //else
