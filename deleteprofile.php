@@ -1,14 +1,22 @@
 <?php
 require 'configure.php';
-session_start();
+if(isset($_POST['delete']))
+{
+    $id=$_POST['delete'];
 
-if(!empty($_SESSION['sessionid'])) {
-    $sessionid = $_SESSION["sessionid"];
-    $result = mysqli_query($con, "SELECT * FROM registered_user WHERE ID = '$sessionid'");
-    $row = mysqli_fetch_assoc($result);
-} 
-?>
-
+    $sql="DELETE FROM `registered_user` WHERE ID=$id";
+    $result=mysqli_query($con,$sql);
+    if($result)
+    {
+        //echo "Deleted Successfull";
+        header('location:userprofile.php');
+    }
+    else
+    {
+        die(mysqli_error($con));
+    }
+}
+?> 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,10 +25,8 @@ if(!empty($_SESSION['sessionid'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/navigation.css">
-    <link rel="stylesheet" type="text/css" href="styles/profile.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Profile| IMA 2024</title>
- 
+    <title>Delete| IMA 2024</title>
 </head>
 <body>
     <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
@@ -36,21 +42,13 @@ if(!empty($_SESSION['sessionid'])) {
         <a href="#"> Contact Us </a> 
     </nav>
     </header>
-    <h1>Profile</h1>
 
-   <div class="container">
-   
-    <div class="profile">
-
-       <span id="result-FirstName" ><h4> First Name       : </h4></span><?php echo $row["First_Name"]; ?><br><br>
-       <span id="result-LastName" ><h4> Last Name      :</h4></span><?php echo $row["Last_Name"]; ?><br><br>
-       <span id="result-email" > <h4> Email             : </h4></span><?php echo $row["Email"]; ?><br><br> 
-       <span id="result-phoneNumber" ><h4> Contact Number :</h4></span><?php echo $row["Contact_No"]; ?><br><br>
-      
-  </div><br>
-
-    <a href="editprofile.php"> <input class="button1" type="submit" name="editProfile" value="Edit Profile"></a>
-    <a href="deleteprofile.php"> <input class="button1" type="submit" name="deleteProfile" value="Delete Profile"></a>
+    <h1>Delete Profile</h1>
+    <h1> Are you sure you want to delete your profile? </h1> 
+    <input class="button1" type="submit" name="deleteProfile" value="Delete Profile" id="delete">
+    <!-- <a href="editprofile.php"> <input class="button1" type="submit" name="editProfile" value="Edit Profile"></a>
+    <a href="deleteprofile.php"> <input class="button1" type="submit" name="deleteProfile" value="Delete Profile"></a> -->
+    <br><br><br><br><br><br><br><br><br><br>
     <footer>
         <div class="footerContainer">
             <div class="socialIcons">

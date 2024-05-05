@@ -1,5 +1,3 @@
-
-
 <?php
 require 'configure.php';
 session_start();
@@ -13,7 +11,7 @@ if(!empty($_SESSION['sessionid'])) {
 $id = $row['ID'];
 
     // $id=$_POST['id'];
-    $sql="SELECT * from `registered_user` where ID=$id";
+    $sql="SELECT * FROM `registered_user` WHERE ID=$id";
     $result=mysqli_query($con,$sql);
     $row=mysqli_fetch_assoc($result);
     $fname=$row['First_Name'];
