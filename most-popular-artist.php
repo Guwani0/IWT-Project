@@ -234,11 +234,7 @@
         </div>
         <br><br>
         <div class="name">CAMILA CABELLO</div>
-        <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
-            Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
-            Known for her powerful vocals, relatable lyrics, and catchy pop melodies. 
-            Continues to captivate audiences with her evolving sound and genuine storytelling. 
-            Her newest track, Espresso, has been trending for days!!</p>
+        <p class="about"> Camila Cabello, a multifaceted artist who rose to prominence as part of the girl group Fifth Harmony before embarking on a successful solo career. Known for her soulful voice, infectious charisma, and dynamic stage presence. With chart-topping hits like "Havana" and "Señorita," Cabello has solidified her status as a pop sensation. Renowned for her authenticity, she infuses her music with personal experiences and heartfelt emotion, resonating deeply with fans worldwide. Continues to push artistic boundaries and inspire with her empowering lyrics and captivating performances. Her latest single, "Midnight Memories," has been making waves and earning critical acclaim.</p>
 
 
         <div class="box">
@@ -254,11 +250,7 @@
         </div>
         <br><br>
         <div class="name">LADY GAGA</div>
-        <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
-            Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
-            Known for her powerful vocals, relatable lyrics, and catchy pop melodies. 
-            Continues to captivate audiences with her evolving sound and genuine storytelling. 
-            Her newest track, Espresso, has been trending for days!!</p>
+        <p class="about"> Lady Gaga, an iconic artist known for her versatile talents as a singer, songwriter, and actress. Rising to fame with her debut album "The Fame" and hits like "Just Dance" and "Poker Face." Renowned for her groundbreaking fashion choices, bold performances, and boundary-pushing music videos. With a distinctive voice and an unparalleled stage presence, Gaga has become a global phenomenon. Continues to push artistic boundaries with each new project, captivating audiences worldwide. Her latest single, "Electric Kiss," has been dominating the charts and garnering widespread acclaim.</p>
 
         <div class="box">
         <div class="cards">
@@ -273,11 +265,7 @@
         </div>
         <br><br>
         <div class="name">THE WEEKND</div>
-        <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
-            Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
-            Known for her powerful vocals, relatable lyrics, and catchy pop melodies. 
-            Continues to captivate audiences with her evolving sound and genuine storytelling. 
-            Her newest track, Espresso, has been trending for days!!</p>
+        <p class="about"> The Weeknd, a Canadian-born artist who has redefined modern R&B and pop music. Initially gaining attention for his mysterious persona and enigmatic sound, he has since become a global superstar. With chart-topping hits like "Blinding Lights" and "Can't Feel My Face," The Weeknd effortlessly blends elements of pop, R&B, and electronic music to create captivating melodies and evocative lyrics. Known for his distinctive falsetto vocals and dark, introspective themes, he has carved out a unique niche in the music industry. Continues to push creative boundaries with his genre-defying sound and visually stunning music videos. His latest album, "After Hours," has received widespread acclaim and solidified his status as one of the most innovative artists of his generation.</p>
 
 
     </div>

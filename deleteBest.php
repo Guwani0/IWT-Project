@@ -2,9 +2,9 @@
 
 require 'configure.php';
 
-    $ID = $_POST["vid"];
+    $userEmail=$_POST["vemail"];
 
-        $sql = "DELETE FROM  Best_New_Artist WHERE ID='$ID' ";
+        $sql = "DELETE FROM Best_New_Artist WHERE Email='$userEmail' ";
 
         if($con->query($sql))
         {

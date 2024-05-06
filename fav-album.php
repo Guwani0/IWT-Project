@@ -233,11 +233,7 @@
         </div>
         <br><br>
         <div class="name">24K MAGIC - BRUNO MARS</div>
-        <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
-            Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
-            Known for her powerful vocals, relatable lyrics, and catchy pop melodies. 
-            Continues to captivate audiences with her evolving sound and genuine storytelling. 
-            Her newest track, Espresso, has been trending for days!!</p>
+        <p class="about"> Bruno Mars, a versatile entertainer renowned for his exceptional talent in singing, songwriting, and performing. Rising to fame with his debut album "Doo-Wops & Hooligans," Mars quickly became a household name with hit singles like "Just the Way You Are" and "Grenade." His dynamic stage presence and infectious energy have earned him accolades as a top live performer, showcasing his impressive vocal range and captivating audiences worldwide. Mars' music seamlessly blends elements of pop, R&B, funk, and soul, creating a signature sound that transcends genres. With multiple Grammy Awards and chart-topping hits to his name, including collaborations with industry giants like Mark Ronson and Cardi B, Bruno Mars continues to push boundaries and redefine modern pop music. His enduring influence and timeless appeal solidify his status as one of the most influential artists of his generation.</p>
 
 
         <div class="box">
@@ -272,11 +268,14 @@
         </div>
         <br><br>
         <div class="name">RARE - SELENA GOMEZ</div>
-        <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
-            Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
-            Known for her powerful vocals, relatable lyrics, and catchy pop melodies. 
-            Continues to captivate audiences with her evolving sound and genuine storytelling. 
-            Her newest track, Espresso, has been trending for days!!</p>
+        <p class="about"> Selena Gomez, a multifaceted artist who rose to prominence as a Disney Channel star before establishing herself as a successful singer, actress, and producer. Transitioning from her early roles in "Wizards of Waverly Place" to a flourishing music career, Gomez has captivated audiences with her heartfelt performances and relatable persona. With hit singles like "Come & Get It" and "Good for You," she has showcased her versatile vocal range and knack for crafting infectious pop melodies. Beyond her music, Gomez has also made waves in the film industry with roles in movies like "Spring Breakers" and "The Fundamentals of Caring," demonstrating her versatility as a performer. Known for her authenticity and resilience, Gomez continues to evolve as an artist, using her platform to advocate for important social causes and connect with fans on a deeper level. With her latest projects garnering widespread acclaim, including her chart-topping album "Rare," Selena Gomez remains a prominent figure in both the entertainment industry and popular culture.
+
+
+
+
+
+
+</p>
 
 
     </div>

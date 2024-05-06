@@ -232,11 +232,7 @@
         </div>
         </div>
         <div class="name">WE CAN'T BE FRIENDS - ARIANA GRANDE</div>
-        <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
-            Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
-            Known for her powerful vocals, relatable lyrics, and catchy pop melodies. 
-            Continues to captivate audiences with her evolving sound and genuine storytelling. 
-            Her newest track, Espresso, has been trending for days!!</p>
+        <p class="about">Ariana Grande, a former Nickelodeon star, has risen to become one of the biggest pop sensations of her generation. With a remarkable vocal range and impressive vocal control, Grande has captivated audiences worldwide. Known for her chart-topping hits like "Thank U, Next," "7 Rings," and "Problem," she effortlessly blends pop, R&B, and hip-hop influences into her music. Beyond her powerful voice, Grande is celebrated for her empowering lyrics and distinctive style. Continuously evolving her sound and image, she remains a dominant force in the music industry, pushing boundaries with each new release. Her latest album, "Positions," showcases her versatility as an artist and her ability to consistently deliver fresh and compelling music that resonates with fans globally.</p>
 
 
         <div class="box">
@@ -269,11 +265,7 @@
         </div>
         </div>
         <div class="name">ATTENTION - CHARLIE PUTH</div>
-        <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
-            Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
-            Known for her powerful vocals, relatable lyrics, and catchy pop melodies. 
-            Continues to captivate audiences with her evolving sound and genuine storytelling. 
-            Her newest track, Espresso, has been trending for days!!</p>
+        <p class="about"> Charlie Puth, originally gaining fame through his viral YouTube covers, has emerged as a prominent singer-songwriter in the pop music scene. His breakout single "See You Again," a heartfelt tribute featured in the "Fast & Furious" franchise, catapulted him to stardom. Known for his smooth vocals and knack for crafting infectious pop hooks, Puth has continued to produce hit songs like "Attention" and "We Don't Talk Anymore." His versatile talent extends beyond singing, with his skills as a multi-instrumentalist and producer adding depth to his music. Puth's signature blend of pop, R&B, and soul influences, coupled with his honest songwriting, resonates with audiences worldwide. With each new release, he showcases his evolution as an artist, cementing his status as a formidable force in contemporary pop music.</p>
 
 
     </div>

@@ -238,11 +238,7 @@
         </div>
         <br><br>
         <div class="name">BTS</div>
-        <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
-            Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
-            Known for her powerful vocals, relatable lyrics, and catchy pop melodies. 
-            Continues to captivate audiences with her evolving sound and genuine storytelling. 
-            Her newest track, Espresso, has been trending for days!!</p>
+        <p class="about"> BTS, a South Korean boy band that has taken the global music scene by storm. Rising from humble beginnings, BTS has become a cultural phenomenon, known for their dynamic performances, captivating music videos, and meaningful lyrics. With a diverse discography spanning various genres including pop, hip-hop, and EDM, BTS has amassed a dedicated fanbase known as the ARMY. Their music often explores themes of self-love, mental health, and societal issues, resonating with listeners worldwide. Beyond their musical endeavors, BTS advocates for social causes and promotes messages of unity and inclusivity. Continues to break records and push boundaries in the music industry, solidifying their status as one of the most influential acts of the modern era.</p>
 
 
         <div class="box">
@@ -258,11 +254,7 @@
         </div>
         <br><br>
         <div class="name">BLACKPINK</div>
-        <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
-            Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
-            Known for her powerful vocals, relatable lyrics, and catchy pop melodies. 
-            Continues to captivate audiences with her evolving sound and genuine storytelling. 
-            Her newest track, Espresso, has been trending for days!!</p>
+        <p class="about"> BLACKPINK, a South Korean girl group that has become a global sensation. Emerging from YG Entertainment, BLACKPINK has captivated audiences with their fierce performances, stylish visuals, and infectious pop anthems. Known for hits like "DDU-DU DDU-DU" and "Kill This Love," BLACKPINK showcases a unique blend of K-pop, hip-hop, and EDM elements. Their music videos are celebrated for their high production value and trend-setting fashion. With their powerful stage presence and charismatic personalities, BLACKPINK members Jennie, Lisa, Rosé, and Jisoo have amassed a massive following known as the BLINKs. Beyond music, BLACKPINK collaborates with top fashion brands and promotes empowerment and confidence through their music and image. Continues to dominate charts and influence pop culture worldwide, solidifying their status as one of the biggest girl groups in music today.</p>
 
         <div class="box">
         <div class="cards">
@@ -277,11 +269,7 @@
         </div>
         <br><br>
         <div class="name">MAROON 5</div>
-        <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
-            Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
-            Known for her powerful vocals, relatable lyrics, and catchy pop melodies. 
-            Continues to captivate audiences with her evolving sound and genuine storytelling. 
-            Her newest track, Espresso, has been trending for days!!</p>
+        <p class="about"> Maroon 5, originally formed as Kara's Flowers in the 1990s, transformed into a globally renowned pop-rock band. Led by frontman Adam Levine, Maroon 5 gained widespread recognition with their debut album "Songs About Jane," featuring hits like "This Love" and "She Will Be Loved." Known for their infectious hooks, polished production, and Levine's distinctive falsetto, Maroon 5 has consistently dominated the charts with catchy pop tunes infused with elements of rock, funk, and R&B. Over the years, they've continued to evolve their sound, exploring new genres and collaborating with various artists. With chart-toppers like "Moves Like Jagger," "Sugar," and "Girls Like You," Maroon 5 remains a staple of contemporary pop music, captivating audiences worldwide with their infectious melodies and dynamic performances.</p>
 
 
     </div>

@@ -2,16 +2,16 @@
 
 require 'configure.php';
 
-    $ID = $_POST["vid"];
+    
     $userEmail=$_POST["vemail"];
     $Nominee=$_POST["POP"];
 
-     if(empty($ID)||empty($userEmail)||empty($Nominee))
+     if(empty($userEmail)||empty($Nominee))
      {
         echo "ALL REQURED";
      }
      else{
-        $sql = "UPDATE Most_Popular_Artist SET Email='$userEmail', Nominee='$Nominee' WHERE ID=$ID";
+        $sql = "UPDATE Most_Popular_Artist SET Nominee='$Nominee' WHERE Email='$userEmail'";
 
         if($con->query($sql))
         {

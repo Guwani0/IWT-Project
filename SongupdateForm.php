@@ -30,7 +30,7 @@
     <br><br>
     <form action="updateSong.php" method="POST" class="update">
         
-            <div class="email">ID :  <input class="box" type="text" name="vid" required></div><br><br>
+            
 
             <div class="email">Email :  <input class="box" type="text" name="vemail" required></div><br><br>
 

@@ -31,7 +31,7 @@
     <br><br>
     <form action="updateBest.php" method="POST">
     <div class="all">
-            <div class="id">ID :  <input class="box" type="text" name="vid" required></div><br><br>
+            
 
             <div class="email">Email :  <input class="box" type="text" name="vemail" required></div><br><br>
 

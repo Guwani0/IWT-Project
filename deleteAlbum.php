@@ -2,9 +2,9 @@
 
 require 'configure.php';
 
-    $ID = $_POST["vid"];
+$userEmail=$_POST["vemail"];
 
-        $sql = "DELETE FROM  Favourite_Album WHERE ID='$ID' ";
+$sql = "DELETE FROM Favourite_Album WHERE Email='$userEmail' ";
 
         if($con->query($sql))
         {
