@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="styles/adminDashboard.css">
         <link rel="stylesheet" href="styles/demosanjana.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>Category Dashboard | IMA</title>
+        <title>Category Dashboard | IMA 2024</title>
     </head>
 
     <body>
@@ -32,11 +32,11 @@
             <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
         </div>
         <div class="footerNav">
-            <ul><li><a href="postlogin1">Home</a></li>
-                <li><a href="">Download The App</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">FAQ</a></li>
+        <ul><li><a href="index.php">Home</a></li>
+                <li><a href="download.php"> Download The App</a></li>
+                <li><a href="ima_story.php">About Us</a></li>
+                <li><a href="contactus.php">Contact Us</a></li>
+                <li><a href="FAQ.php"> FAQ </a></li>
             </ul>
         </div>
         

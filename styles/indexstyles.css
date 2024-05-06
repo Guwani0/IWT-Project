@@ -48,7 +48,7 @@
     transition: 0.5s;
     overflow: hidden;
 }
-
+/*Reference: https://www.youtube.com/watch?v=OTjmnF27ADk */
 .slide .item:nth-child(1),
 .slide .item:nth-child(2){
     top: 0;
@@ -201,7 +201,7 @@
     top: 0;
     border-radius: 10px;
   }
-  
+  /*Reference:https://www.youtube.com/watch?v=b_8fHNIHFk4*/
   .btn::before {
     content: "";
     background: linear-gradient(

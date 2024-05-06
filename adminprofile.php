@@ -29,7 +29,7 @@ if(!empty($_SESSION['sessionid'])) {
     </div>
     <br>
     <div>
-    <h1 class="header1" style="font-size: xxx-large;"> Admin Profile </h1>
+    <h1 class="header1" style="font-size: xxx-large; margin-top:130px;"> Admin Profile </h1>
 </div>
     <div class="container">
    

@@ -73,8 +73,8 @@ if(isset($_POST['submit']))
     <nav class="navbar">
             <a href="postlogin1.php">  Home </a> 
             <a href="Category.php"> IMA 2024 </a> 
-            <a href="#"> Archives </a> 
-            <a href="#"> Gallery </a> 
+            <a href="archives.php"> Archives </a> 
+            <a href="gallery.php"> Gallery </a> 
             <a href="ima_story.php"> The IMA Story </a> 
             <a href="download.php"> Download The App </a> 
             <a href="contactus.php"> Contact Us </a>  

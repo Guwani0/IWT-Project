@@ -14,10 +14,10 @@
     <header class="header">
 
         <nav class="navbar">
-            <a href="postlogin1.php">  Home </a> 
+            <a href="index.php">  Home </a> 
             <a href="Category.php"> IMA 2024 </a> 
-            <a href="#"> Archives </a> 
-            <a href="#"> Gallery </a> 
+            <a href="archives.php"> Archives </a> 
+            <a href="gallery.php"> Gallery </a> 
             <a href="ima_story.php"> The IMA Story </a> 
             <a href="download.php"> Download The App </a> 
             <a href="contactus.php"> Contact Us </a> 
@@ -62,7 +62,7 @@
     </div>
     <script src="FAQ.js"> </script>
 
-<a href="feedback.html" class="feedback-button">Feedback</a>
+<a href="feedback.php" class="feedback-button">Feedback</a>
 <br><br><br><br>
 <h3>Your feedback is valuable</h3>
 </main>

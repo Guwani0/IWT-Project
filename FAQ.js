@@ -1,3 +1,4 @@
+/*https://www.youtube.com/watch?v=j_Xa7Kn59Es*/
 document.addEventListener("DOMContentLoaded", function() {
     const questions = document.querySelectorAll(".question");
 

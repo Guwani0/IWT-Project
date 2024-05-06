@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="styles/stylesjason.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    
-<title></title>
+<title> Favorite Album </title>
 <style>
     @font-face{
         font-family:Future;
@@ -188,13 +188,13 @@
 <header class="header">
 
         <nav class="navbar">
-            <a href="#">  Home </a> 
-            <a href="#"> IMA 2024 </a> 
-            <a href="#"> Archives </a> 
-            <a href="#"> Gallery </a> 
-            <a href="#"> The IMA Story </a> 
-            <a href="#"> Download The App </a> 
-            <a href="#"> Contact Us </a> 
+        <a href="postlogin1.php">  Home </a> 
+            <a href="Category.php"> IMA 2024 </a> 
+            <a href="archives.php"> Archives </a> 
+            <a href="gallery.php"> Gallery </a> 
+            <a href="ima_story.php"> The IMA Story </a> 
+            <a href="download.php"> Download The App </a> 
+            <a href="contactus.php"> Contact Us </a> 
         </nav> 
 </header>
  
@@ -269,12 +269,6 @@
         <br><br>
         <div class="name">RARE - SELENA GOMEZ</div>
         <p class="about"> Selena Gomez, a multifaceted artist who rose to prominence as a Disney Channel star before establishing herself as a successful singer, actress, and producer. Transitioning from her early roles in "Wizards of Waverly Place" to a flourishing music career, Gomez has captivated audiences with her heartfelt performances and relatable persona. With hit singles like "Come & Get It" and "Good for You," she has showcased her versatile vocal range and knack for crafting infectious pop melodies. Beyond her music, Gomez has also made waves in the film industry with roles in movies like "Spring Breakers" and "The Fundamentals of Caring," demonstrating her versatility as a performer. Known for her authenticity and resilience, Gomez continues to evolve as an artist, using her platform to advocate for important social causes and connect with fans on a deeper level. With her latest projects garnering widespread acclaim, including her chart-topping album "Rare," Selena Gomez remains a prominent figure in both the entertainment industry and popular culture.
-
-
-
-
-
-
 </p>
 
 
@@ -290,11 +284,11 @@
             <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
         </div>
         <div class="footerNav">
-            <ul><li><a href="index.php">Home</a></li>
-                <li><a href="">Download The App</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">FAQ</a></li>
+        <ul><li><a href="postlogin1.php">Home</a></li>
+                <li><a href="download.php"> Download The App</a></li>
+                <li><a href="ima_story.php">About Us</a></li>
+                <li><a href="contactus.php">Contact Us</a></li>
+                <li><a href="FAQ.php"> FAQ </a></li>
             </ul>
         </div>
         

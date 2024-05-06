@@ -16,8 +16,8 @@
         <h1>Successfully Submitted, Voting Complete</h1>
         <p>Thank you for your vote!</p>
         <div class="button-box">
-            <a href="https://example.com/mobile-app-download" class="button"><i class="fas fa-cloud-download-alt"></i> Download Mobile App</a>
-            <a href="https://example.com/home" class="button"><i class="fas fa-home"></i> Go to Homepage</a>
+            <a href="download.php" class="button"><i class="fas fa-cloud-download-alt"></i> Download Mobile App</a>
+            <a href="index.php" class="button"><i class="fas fa-home"></i> Go to Homepage</a>
             <br><br>
             <a href="UpDelcategory.php" class="button">Update / Delete your vote</a>
             <a href="ratings.html" class="button">Rate Us</a>

@@ -25,13 +25,13 @@
     <header class="header">
 
         <nav class="navbar">
-            <a href="#">  Home </a> 
-            <a href="#"> IMA 2024 </a> 
+        <a href="postlogin1.php">  Home </a> 
+            <a href="Category.php"> IMA 2024 </a> 
             <a href="archives.php"> Archives </a> 
             <a href="gallery.php"> Gallery </a> 
-            <a href="#"> The IMA Story </a> 
-            <a href="#"> Download The App </a> 
-            <a href="#"> Contact Us </a> 
+            <a href="ima_story.php"> The IMA Story </a> 
+            <a href="download.php"> Download The App </a> 
+            <a href="contactus.php"> Contact Us </a> 
         </nav>
     </header>
 
@@ -88,11 +88,12 @@
           <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
       </div>
       <div class="footerNav">
-          <ul><li><a href="index.php">Home</a></li>
-              <li><a href="">Downnload The App</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Contact Us</a></li>
-              <li><a href="">FAQ</a></li>
+      <ul><li><a href="postlogin1.php">Home</a></li>
+                <li><a href="download.php"> Download The App</a></li>
+                <li><a href="ima_story.php">About Us</a></li>
+                <li><a href="contactus.php">Contact Us</a></li>
+                <li><a href="FAQ.php"> FAQ </a></li>
+            </ul>
           </ul>
       </div>
       

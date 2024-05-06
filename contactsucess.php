@@ -25,8 +25,8 @@
     <nav class="navbar">
             <a href="postlogin1.php">  Home </a> 
             <a href="Category.php"> IMA 2024 </a> 
-            <a href="#"> Archives </a> 
-            <a href="#"> Gallery </a> 
+            <a href="archives.php"> Archives </a> 
+            <a href="gallery.php"> Gallery </a> 
             <a href="ima_story.php"> The IMA Story </a> 
             <a href="download.php"> Download The App </a> 
             <a href="contactus.php"> Contact Us </a> 
@@ -73,12 +73,12 @@
         transform: scale(1.2);
     }
 }
-        </style>
+    </style>
     </header>
     <body>
     <div class="successbox">
     <p class="p1">Successfully submitted</p>
-    <a href="#"><button class="btn2">Home</button></a>  
+    <a href="postlogin1.php"><button class="btn2">Home</button></a>  
     </div>  
 
         <footer>
@@ -91,11 +91,11 @@
             <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
         </div>
         <div class="footerNav">
-            <ul><li><a href="index.php">Home</a></li>
-                <li><a href="">Download The App</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">FAQ</a></li>
+        <ul><li><a href="postlogin1.php">Home</a></li>
+                <li><a href="download.php"> Download The App</a></li>
+                <li><a href="ima_story.php">About Us</a></li>
+                <li><a href="contactus.php">Contact Us</a></li>
+                <li><a href="FAQ.php"> FAQ </a></li>
             </ul>
         </div>
         

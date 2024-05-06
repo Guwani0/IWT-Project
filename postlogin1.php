@@ -36,7 +36,7 @@
             <a href="contactus.php"> Contact Us </a> 
         </nav>
         <div class="box">
-            <a href="userprofile.php"> <img src="images/userimg.png" alt="User Profile" width="80px" style=" margin-left: 20px;" /> </a>
+            <a href="dashboard.php"> <img src="images/userimg.png" alt="User Profile" width="80px" style=" margin-left: 20px;" /> </a>
         </div> 
     </header>
     <div class="ima">

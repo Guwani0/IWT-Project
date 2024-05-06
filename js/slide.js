@@ -1,3 +1,5 @@
+//Reference: https://www.youtube.com/watch?v=OTjmnF27ADk
+
 //The querySelector() method returns the first element that matches a CSS selector.
 let next = document.querySelector('.next')
 let prev = document.querySelector('.prev')

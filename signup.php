@@ -21,10 +21,10 @@
     <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
     <header class="header">
     <nav class="navbar">
-    <a href="postlogin1.php">  Home </a> 
+      <a href="postlogin1.php">  Home </a> 
       <a href="Category.php"> IMA 2024 </a> 
-      <a href="#"> Archives </a> 
-      <a href="#"> Gallery </a> 
+      <a href="archives.php"> Archives </a> 
+      <a href="gallery.php"> Gallery </a> 
       <a href="ima_story.php"> The IMA Story </a> 
       <a href="download.php"> Download The App </a> 
       <a href="contactus.php"> Contact Us </a> 
