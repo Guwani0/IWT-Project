@@ -24,7 +24,7 @@ if(isset($_POST['submit']))
     $subject = $_POST['subject'];
     $message = $_POST['message'];
 
-    $sql="update contact set id=$id, name='$name', email='$email', subject='$subject', message='$message' where id=$id";
+    $sql="update contact set ID='$id', Name='$name', Email='$email', Subject='$subject', Message='$message' where ID=$id";
 
     $result=mysqli_query($con,$sql);
     if($result)

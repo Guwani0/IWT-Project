@@ -39,7 +39,7 @@
                 <div class="frame">
                     <p class="p2">We as International Music Awards are committed to assisting all the music enthusiastic around the world. 
                         Our skilled team of marketing experts is committed to providing outstanding customer services that are specifically tailored to your requirements. 
-                        To learn more about how our online voting system function, can help satisfy your needs and get in touch with us right away.<br><br>
+                        .<br><br>
                         <b>Thank you</p>
                         <i class="fa-solid fa-address-book"> :0765 832 812</i>
                         <i class="fa-solid fa-envelope"> </i>

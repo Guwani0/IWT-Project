@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/contactsucess.css">
+        
         <link rel="stylesheet" href="styles/demoamath.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -31,17 +31,56 @@
             <a href="#"> Download The App </a> 
             <a href="#"> Contact Us </a> 
         </nav> 
+
+        <style>
+            .btn2{
+                margin-top:20px;
+                margin-left: 100px;
+                background-color: black;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+                border-radius: 4px;
+                width: 100px;
+                color: white;
+}
+.p1{
+    text-align: center;
+    margin-top: -20px;
+}
+.successbox{
+    border: 2px solid white;
+    padding: 50px;
+    width: 300px;
+    margin-left: 460px;
+    margin-top: 50px;
+    height: 80px;
+    background-color:rgba(204, 118, 5, 0.788);
+    border-style: ridge;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 20px 35px rgba(250, 171, 0, 0.842);
+    margin-bottom: 280px;
+}
+.successbox{
+    animation: zoomInOut 7s infinite alternate;
+}
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1); /* Initial scale */
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+        </style>
     </header>
     <body>
-    <h1><p class="p1">Successfully submitted</p></h1>
-                <div class="sqr">
-                    <p class="p4">If you want to edit your inquiry</p>
-                    <a href="contactusread.php"><button class="btn2" type="submit" value="Edit">EDIT</button></a>
-                <br><br>
-                <p class="p4">If you want to delete your inquiry</p>
-                <a href="contactusdelete.php">
-                <button class="btn2" type="submit" value="delete">DELETE</button> </a>
-                </div>
+    <div class="successbox">
+    <p class="p1">Successfully submitted</p>
+    <a href="#"><button class="btn2">Home</button></a>  
+    </div>  
+
         <footer>
     <div class="footerContainer">
         <div class="socialIcons">
