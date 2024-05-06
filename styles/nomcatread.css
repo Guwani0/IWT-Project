@@ -1,0 +1,54 @@
+.head{
+    align-content: center;
+    align-items: center;
+    color:gold;
+    margin:auto;
+    text-align:center;
+    font-family: Future;
+    text-shadow:5px 5px 10px black;
+    font-size: x-large;
+
+}
+
+@font-face{
+    font-family:Future;
+    src: url('../fonts/future.ttf');
+}
+
+.main{
+    border: 2px darkorange;
+    color:white;
+    font-family:Future;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin:auto;
+    background-color: rgba(255, 98, 0, 0.573);
+}
+th, td {
+    border: 1px solid #050101;
+    text-align: center;
+    padding: 8px;
+}
+th {
+    background-color: rgba(0, 0, 0, 0.635);
+    color:white;
+}
+
+td{
+    color:black;
+    text-shadow:5px 5px 10px black;
+}
+
+h2{
+    color: darkorange;
+    text-shadow:5px 5px 10px black;
+
+}
+
+

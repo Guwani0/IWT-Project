@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="styles/adminDashboard.css">
         <link rel="stylesheet" href="styles/demosanjana.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>Admin Dashbord | IMA</title>
+        <title>Category Dashboard | IMA</title>
     </head>
 
     <body>
@@ -15,11 +15,11 @@
             <h1>International Music Awards</h1>
         </div>
         <div class="box">
-                <p class="p1">Admin Dashboard</p>
-                <button class="btn1">Profile</button><br>
-                <a href="categoryDashboard.php"><button class="btn1">Manage Categories</button></a><br>
-                <a href="nomineeDashboard.php"><button class="btn1">Manage Nominees</button></a><br>
-                <button class="btn1">User Feedback</button>
+                <p class="p1">Edit Categories</p>
+                <a href="readcategory.php"><button class="btn1">View Categories</button></a><br>
+                <a href="addcategory.php"><button class="btn1">Add Categories</button></a><br>
+                <a href="updatecategory.php"><button class="btn1">Update Categories</button></a><br>
+                <a href="deletecategory.php"><button class="btn1">Delete Categories</button></a><br>
         </div>
 
         <footer>
@@ -47,4 +47,3 @@
 </footer>
     </body>
 </html>
-

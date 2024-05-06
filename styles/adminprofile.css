@@ -1,0 +1,95 @@
+.container {
+    width: 500px;
+    height: 680px;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 40px;
+    box-shadow: 0px 10px 35px rgb(255, 168, 5);
+  }
+h1.header1{
+  color:gold;
+  text-shadow:5px 5px 10px black;
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  width: 100%;
+  border: black;
+}
+
+  h1 {
+    text-align: center;
+    color: #f9f4f4;
+  }
+  
+  h4{
+    color: #f9f4f4;
+  }
+h4{
+    color:#ff8c00;
+    text-align:left;
+    font-size:medium;
+    margin-left: 20px;
+  }
+
+.profile {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.829);
+    border-radius: 4px;
+    border: 2px solid #ff9900;
+    color: #faf4f4;
+    font-size: 18px;
+    font-size:small;
+    height: 650px;
+    text-align: center;
+    text-align: left; 
+  }
+
+  .values{
+    margin-left: 20px;
+  }
+  
+ .wrapper{
+    display: flex;
+    height: 200;
+    justify-content: space-around;
+  }
+
+  .card{
+    margin-top: -700px;
+    margin-left: 700px;
+    width:480px;
+    height:120px;
+    padding: 2rem 1rem;
+    background-image: linear-gradient(to bottom right, rgb(255, 153, 0), rgba(0, 0, 0, 0.959));
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 8px 20px rgb(255, 145, 0);
+  }
+
+  @font-face{
+    font-family:Future;
+    src: url('../fonts/future.ttf');
+  } 
+
+  body{
+    font-family:Future;
+  }
+
+  .head{
+    align-content: center;
+    align-items: center;
+    color:gold;
+    margin:auto;
+    text-align:center;
+    font-family: Future;
+    text-shadow:5px 5px 10px black;
+    font-size: x-large;
+
+}
+ 
