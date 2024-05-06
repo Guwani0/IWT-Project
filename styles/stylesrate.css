@@ -69,7 +69,6 @@
   float: right;
   transition: all 0.2s ease;
 }
-
 input:not(:checked) ~ label:hover,
 input:not(:checked) ~ label:hover ~ label{
   color:  rgb(42, 218, 224);
