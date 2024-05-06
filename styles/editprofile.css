@@ -1,0 +1,84 @@
+
+.container {
+    width: 600px;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 320px;
+    background-color:#ff9900;
+    background-image: linear-gradient(to bottom right, #fd7c04, rgb(51, 33, 6));
+    opacity: 5 ;
+    border-radius: 4px;
+    padding: 40px;
+    box-shadow: 0px 10px 35px rgb(253, 224, 93);
+  }
+h1.header1{
+  color:gold;
+  text-shadow:5px 5px 10px black;
+  position: absolute;
+  text-align: center;
+  top: 13%;
+  width: 100%;
+  border: black;
+}
+
+  h1 {
+    text-align: center;
+    color: #f9f4f4;
+  }
+  
+  h4{
+    color: #f9f4f4;
+  }
+h4{
+    color:#ff8c00;
+    text-align:left;
+    font-size:medium;
+    margin-left: 20px;
+  }
+
+.profile {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.829);
+    border-radius: 4px;
+    border: 2px solid #ff9900;
+    color: #faf4f4;
+    font-size: 18px;
+    font-size:small;
+    height: 650px;
+    text-align: center;
+    text-align: left; 
+  }
+
+  .values{
+    margin-left: 20px;
+  }
+
+  input{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(2, 2, 2);
+    border-radius: 4px;
+    background-color: rgb(235, 185, 125);
+    color: rgb(0, 0, 0);
+  }
+
+  input:focus {
+    background-color: rgb(255, 160, 17);
+    border: 3px solid gold;
+  }
+
+  .primary {
+    background-color: rgb(5, 5, 5);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: medium;
+    border-radius:10px;
+  }
+  

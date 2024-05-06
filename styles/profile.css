@@ -16,14 +16,15 @@
   margin-left: 80px;
 }*/
 
-  .container {
-    width: 700px;
-    height: 630px;
-    margin: 0 auto;
-    background-color:rgba(55, 151, 162);
+.container {
+    width: 500px;
+    height: 680px;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: transparent;
     border-radius: 4px;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    box-shadow: 0px 10px 35px rgb(255, 168, 5);
   }
 h1.header1{
   color:gold;
@@ -44,23 +45,75 @@ h1.header1{
     color: #f9f4f4;
   }
 h4{
-    color:darkorange;
+    color:#ff8c00;
     text-align:left;
     font-size:medium;
+    margin-left: 20px;
   }
 
 .profile {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #070707;
-    background-color:black;
+    background-color:rgba(0, 0, 0, 0.829);
     border-radius: 4px;
-    border: 1px solid #accecf;
+    border: 2px solid #ff9900;
     color: #faf4f4;
     font-size: 18px;
     font-size:small;
-    height: 600px;
+    height: 650px;
     text-align: center;
-    text-align: left;
-    
+    text-align: left; 
   }
+
+  .values{
+    margin-left: 20px;
+  }
+  
+ .wrapper{
+    display: flex;
+    height: 200;
+    justify-content: space-around;
+  }
+
+  .card{
+    margin-top: -700px;
+    margin-left: 700px;
+    width:480px;
+    height:120px;
+    padding: 2rem 1rem;
+    background-image: linear-gradient(to bottom right, rgb(255, 153, 0), rgba(0, 0, 0, 0.959));
+    /*ackground-color: #AE8625;*/
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 8px 20px rgb(255, 145, 0);
+  }
+
+  .card:hover{
+    transform:translateY(20px);
+  }
+
+.card:hover:before{
+    opacity:1;
+}
+
+.card .info{
+  position:relative;
+  z-index: 3;
+  color: #faf4f4;
+  opacity: 1;
+  transform: translateY(30px);
+  transition: 0.5s all;
+
+}
+
+.card .info a{
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  font-size: 14 px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}

@@ -50,20 +50,43 @@ if(!empty($_SESSION['sessionid'])) {
    
     <div class="profile">
 
-       <span id="result-FirstName" ><h4> First Name       : </h4></span><?php echo $row["First_Name"]; ?><br><br>
-       <span id="result-LastName" ><h4> Last Name      :</h4></span><?php echo $row["Last_Name"]; ?><br><br>
-       <span id="result-email" > <h4> Email             : </h4></span><?php echo $row["Email"]; ?><br><br> 
-       <span id="result-phoneNumber" ><h4> Contact Number :</h4></span><?php echo $row["Contact_No"]; ?><br><br>
-       <span id="result-dob" ><h4> Date of Birth          :</h4></span><?php echo $row["DOB"]; ?><br><br>
-       <span id="result-dob" ><h4> Country          :</h4></span><?php echo $row["Country"]; ?><br><br>
+       <span id="result-FirstName" ><h4> First Name       : </h4></span> <div class="values"><?php echo $row["First_Name"]; ?> </div><br><br>
+       <span id="result-LastName" ><h4> Last Name      :</h4> <div class="values"></span><?php echo $row["Last_Name"]; ?> </div><br><br>
+       <span id="result-email" > <h4> Email             : </h4> <div class="values"></span><?php echo $row["Email"]; ?> </div> <br><br> 
+       <span id="result-phoneNumber" ><h4> Contact Number :</h4> <div class="values"></span><?php echo $row["Contact_No"]; ?> </div> <br><br>
+       <span id="result-dob" ><h4> Date of Birth          :</h4> <div class="values"></span><?php echo $row["DOB"]; ?> </div><br><br>
+       <span id="result-dob" ><h4> Country          :</h4></span> <div class="values"><?php echo $row["Country"]; ?> </div><br><br>
       
     </div><br>
     </div>
+    
+    <div class="wrapper">
+        <div class="card">
+            <div class="info">
+                <h1> <a href="editprofile.php">  Edit Profile <!--<input class="button1" type="submit" name="editProfile"> --> </a> 
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <div class="wrapper">
+        <div class="card"  style="margin-top:-530px" >
+           <div class="info">
+                <h1> <a href="deleteprofile.php"> Delete Profile <!--<input class="button1" type="submit" name="deleteProfile" value="Delete Profile"> --></a>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <div class="wrapper">
+        <div class="card" style="margin-top:-330px">
+            <div class="info">
+                <h1> <a href="logout.php">  Logout </a>  </h1>
+            </div>
+        </div>
+    </div>
 
 
-    <a href="logout.php">  Logout </a>     
-    <a href="editprofile.php"> <input class="button1" type="submit" name="editProfile" value="Edit Profile"></a>
-    <a href="deleteprofile.php"> <input class="button1" type="submit" name="deleteProfile" value="Delete Profile"></a>
     <footer>
         <div class="footerContainer">
             <div class="socialIcons">
