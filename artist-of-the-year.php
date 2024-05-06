@@ -235,11 +235,7 @@
         </div>
         <br><br>
         <div class="name">TAYLOR SWIFT</div>
-        <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
-            Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
-            Known for her powerful vocals, relatable lyrics, and catchy pop melodies. 
-            Continues to captivate audiences with her evolving sound and genuine storytelling. 
-            Her newest track, Espresso, has been trending for days!!</p>
+        <p class="about"> Taylor Swift, a multi-talented artist who has become a global icon in the music industry. Rising to fame as a country-pop sensation with hits like "Love Story" and "You Belong with Me," Swift has continually reinvented herself, transitioning seamlessly between genres and captivating audiences with her heartfelt songwriting and emotive performances. Known for her autobiographical lyrics, Swift has a knack for turning personal experiences into universal anthems that resonate with fans of all ages. With chart-topping albums like "Fearless," "1989," and "Reputation," she has solidified her status as one of the best-selling music artists of all time. Continues to push artistic boundaries with her latest releases, showcasing her versatility as a singer, songwriter, and performer.</p>
 
 
         <div class="box">
@@ -255,11 +251,7 @@
         </div>
         <br><br>
         <div class="name">HARRY STYLES</div>
-        <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
-            Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
-            Known for her powerful vocals, relatable lyrics, and catchy pop melodies. 
-            Continues to captivate audiences with her evolving sound and genuine storytelling. 
-            Her newest track, Espresso, has been trending for days!!</p>
+        <p class="about"> Harry Styles, a multifaceted artist who rose to fame as a member of the chart-topping boy band One Direction. Transitioning seamlessly from pop heartthrob to a solo artist with a distinct musical identity, Styles has captivated audiences with his charismatic persona and eclectic sound. Known for his unique fashion sense and boundary-pushing creativity, he has become an icon of individuality and self-expression. With hits like "Sign of the Times" and "Watermelon Sugar," Styles showcases his versatility as a singer-songwriter, blending elements of rock, pop, and folk to create compelling sonic landscapes. Continues to push artistic boundaries and defy expectations, earning acclaim for his authenticity and innovation in both music and fashion.</p>
 
         <div class="box">
         <div class="cards">
@@ -274,11 +266,7 @@
         </div>
         <br><br>
         <div class="name">LANA DEL REY</div>
-        <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
-            Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
-            Known for her powerful vocals, relatable lyrics, and catchy pop melodies. 
-            Continues to captivate audiences with her evolving sound and genuine storytelling. 
-            Her newest track, Espresso, has been trending for days!!</p>
+        <p class="about"> Lana Del Rey, an enigmatic and visionary artist renowned for her captivating music and cinematic style. Emerging onto the music scene with her breakthrough single "Video Games," Del Rey's haunting vocals and dreamy, retro-inspired sound quickly garnered widespread acclaim. With albums like "Born to Die" and "Ultraviolence," she has established herself as a provocative and introspective songwriter, exploring themes of love, lust, and melancholy with poetic lyricism. Del Rey's signature blend of vintage glamour and modern melancholia has earned her a dedicated fanbase and critical praise. Continues to push artistic boundaries with her evocative storytelling and atmospheric soundscapes, cementing her status as an influential figure in contemporary music.</p>
 
 
     </div>

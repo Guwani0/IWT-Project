@@ -2,9 +2,9 @@
 
 require 'configure.php';
 
-    $ID = $_POST["vid"];
+$userEmail=$_POST["vemail"];
 
-        $sql = "DELETE FROM  Group_Of_The_Year WHERE ID='$ID' ";
+$sql = "DELETE FROM Group_Of_The_Year WHERE Email='$userEmail' ";
 
         if($con->query($sql))
         {

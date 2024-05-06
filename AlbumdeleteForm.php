@@ -30,7 +30,7 @@
         <br><br>
     <form action="deleteAlbum.php" method="POST" class="update">
         
-            <div class="email">ID :  <input class="box" type="text" name="vid" required></div>
+    <div class="email">Email :  <input class="box" type="text" name="vemail" required></div>
             <center><div><input class="submit" type="submit" value="DELETE"></div><center>
 
 <footer>
