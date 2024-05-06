@@ -1,5 +1,12 @@
 <?php
 require 'configure.php';
+session_start();
+
+if(!empty($_SESSION['sessionid'])) {
+    $sessionid = $_SESSION["sessionid"];
+    $result = mysqli_query($con, "SELECT * FROM registered_user WHERE ID = '$sessionid'");
+    $row = mysqli_fetch_assoc($result);
+} 
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +19,15 @@ require 'configure.php';
     <link rel="stylesheet" type="text/css" href="styles/profile.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Profile| IMA 2024</title>
- 
+  <style>
+            @font-face{
+            font-family:Future;
+            src: url('../IMA/fonts/future.ttf');
+        }
+            body{
+                font-family:"Future";
+            }
+    </style>
 </head>
 <body>
     <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
@@ -28,31 +43,27 @@ require 'configure.php';
         <a href="#"> Contact Us </a> 
     </nav>
     </header>
-    <h1>Profile</h1>
 
-   <div class="container">
+    <h1 class="header1" style="font-size: xxx-large;"> Your Profile </h1>
+
+    <div class="container">
    
     <div class="profile">
 
-      <?php
-      $sql = "select * from registered_user ;";
-      $result = mysqli_query( $con,$sql);
-      while ($row = mysqli_fetch_array($result)) {
-        $ID = $row['ID'];
-        $FirstName = $row['First_Name'];
-        $LastName = $row['Last_Name'];
-        $Email = $row['Email'];
-        $ContactNumber = $row['Contact_No'];
-    ?>
-       <span id="result-FirstName" ><h4> First Name       : </h4></span><?php echo $FirstName;?><br><br>
-       <span id="result-LastName" ><h4> Last Name      :</h4></span><?php echo $LastName;?><br><br>
-       <span id="result-email" > <h4> Email             : </h4></span><?php echo $Email;?><br><br> 
-       <span id="result-phoneNumber" ><h4> Contact Number :</h4></span><?php echo $ContactNumber;?><br><br>
+       <span id="result-FirstName" ><h4> First Name       : </h4></span><?php echo $row["First_Name"]; ?><br><br>
+       <span id="result-LastName" ><h4> Last Name      :</h4></span><?php echo $row["Last_Name"]; ?><br><br>
+       <span id="result-email" > <h4> Email             : </h4></span><?php echo $row["Email"]; ?><br><br> 
+       <span id="result-phoneNumber" ><h4> Contact Number :</h4></span><?php echo $row["Contact_No"]; ?><br><br>
+       <span id="result-dob" ><h4> Date of Birth          :</h4></span><?php echo $row["DOB"]; ?><br><br>
+       <span id="result-dob" ><h4> Country          :</h4></span><?php echo $row["Country"]; ?><br><br>
       
-  </div><br>
+    </div><br>
+    </div>
 
-    <a href="edit.php"> <input class="button1" type="submit" name="editProfile" value="Edit Profile"></a>
-    <a href="delete.php"> <input class="button1" type="submit" name="deleteProfile" value="Delete Profile"></a>
+
+    <a href="logout.php">  Logout </a>     
+    <a href="editprofile.php"> <input class="button1" type="submit" name="editProfile" value="Edit Profile"></a>
+    <a href="deleteprofile.php"> <input class="button1" type="submit" name="deleteProfile" value="Delete Profile"></a>
     <footer>
         <div class="footerContainer">
             <div class="socialIcons">
@@ -78,9 +89,7 @@ require 'configure.php';
     </footer>
 
     </body>
-    <?php
-    }
-    ?>
+
 
     
     

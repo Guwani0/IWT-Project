@@ -34,9 +34,6 @@
             <a href="#"> The IMA Story </a> 
             <a href="#"> Download The App </a> 
             <a href="#"> Contact Us </a> 
-            <div class="logsign">
-                <a href="logout.php" style="margin-left:1px; "> Logout </a> 
-            </div>
         </nav>
         <div class="box">
             <a href="userprofile.php"> <img src="images/userimg.png" alt="User Profile" width="80px" style=" margin-left: 20px;" /> </a>
