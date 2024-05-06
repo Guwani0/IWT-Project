@@ -1,0 +1,73 @@
+body {
+    background-image: url('../images/back.png');
+    background-color:black;
+    background-size:cover; 
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; 
+     
+}
+@font-face{
+    font-family:Future;
+    src: url('../fonts/future.ttf');
+}
+.full{
+    font-family: Future;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color:white;
+    text-align: center;
+    margin-top:30px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: darkorange;
+    
+}
+
+.artist, .announcer {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+
+.artist img, .announcer img {
+    width: 200px;
+    border-radius: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+p {
+    font-size: 1em;
+    color: white;
+}
