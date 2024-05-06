@@ -96,7 +96,7 @@
 
                 <div class ="email">
                     <lebel>
-                        <input type="email" placeholder="it seems nicely and userfriendly" name="email"/>
+                        <input type="email" placeholder="Email" name="email"/>
                         <span>Email adress(will not be published)</span>
                  </lebel>
 

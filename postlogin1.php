@@ -96,7 +96,7 @@
         <h3 style="font-family: Arial, Helvetica, sans-serif;"> Vote for your favorite now! </h3> 
 
         <button class="btn"> 
-            <a href="vote.php"> Vote </a> 
+            <a href="Category.php"> Vote </a> 
         </button>
     </div>
     <footer>

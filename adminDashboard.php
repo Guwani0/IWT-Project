@@ -19,7 +19,7 @@
                 <a href="adminprofile.php"><button class="btn1">Profile</button> </a><br>
                 <a href="categoryDashboard.php"><button class="btn1">Manage Categories</button></a><br>
                 <a href="nomineeDashboard.php"><button class="btn1">Manage Nominees</button></a><br>
-                <a href="feedback.php"><button class="btn1">User Feedback</button></a>
+                <a href="Feedbackdisplay.php"><button class="btn1">User Feedback</button></a>
                 <a href="readBest.php"><button class="btn1">User Votes</button><br>
         </div>
 

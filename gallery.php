@@ -48,16 +48,16 @@
 
 <div class="main4" >
     <div class="sub4">
-        <p class="p1">2023 highlights <a class="a1"  href="highlights.php" >20 Photos</a><p>
+        <p class="p1">2023 Highlights <a class="a1"  href="highlights.php" >[20] </a><p>
         
     </div>
     <div class="sub5">
-        <p class="p2"> Red Carpet <a class="a2"  href="redcarpet.php" >20 photos</a></p>
+        <p class="p2"> Red Carpet <a class="a2"  href="redcarpet.php" > [20] </a></p>
         
 
     </div>
     <div class="sub6">
-        <p class="p3">IMA Performense <a class="a3"  href="performence.php" >20 photos</a></p>
+        <p class="p3">IMA Performense <a class="a3"  href="performence.php" > [20] </a></p>
         
 
     </div>
@@ -79,17 +79,17 @@
 </div>
 <div class="main7" >
     <div class="sub10">
-        <p class="p4">Performances Highlight <a class="a4" href="performencehlight.php">5 Videos</a></p>
+        <p class="p4">Performances Highlight <a class="a4" href="performencehlight.php">[5]</a></p>
         
 
     </div>
     <div class="sub11">
-        <p class="p5">Winners 2023  <a class="a5" href="winners.php">5 Videos</a></p>
+        <p class="p5">Winners 2023  <a class="a5" href="winners.php">[5]</a></p>
         
 
     </div>
     <div class="sub12">
-        <p class="p6">Host Rewind <a class="a6"  href="hostrewind.php">5 Videos</a></p>
+        <p class="p6">Host Rewind <a class="a6"  href="hostrewind.php">[5]</a></p>
        
 
     </div>

@@ -43,8 +43,7 @@
     <table >
       <thead>
         <tr>
-          <
-          <th>employee_id</th>
+          <th>user_id</th>
           <th>user_name</th>
           <th>user_feedbacks</th>
         </tr>
