@@ -11,7 +11,7 @@
         $sql="INSERT INTO contact (Name, Email, Subject, Message)VALUES ('$uName','$uEmail','$uSubject','$uMessage')";
         mysqli_query($con, $sql);
         echo "<script> alert('Submitted Successfully'); </script>";
-        header("location: contactus.php");
+        header("location: contactsucess.php");
         exit();
     }
         else{

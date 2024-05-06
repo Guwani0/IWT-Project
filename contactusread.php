@@ -1,9 +1,89 @@
+<?php
+require 'configure.php';
+session_start();
+
+if(!empty($_SESSION['sessionid'])) {
+    $sessionid = $_SESSION["sessionid"];
+    $result = mysqli_query($con, "SELECT * FROM contact WHERE ID = '$sessionid'");
+    $row = mysqli_fetch_assoc($result);
+} 
+
+    $id = $row['ID'];
+
+    // $id=$_POST['id'];
+    $sql="SELECT * FROM contact WHERE ID=$id";
+    $result=mysqli_query($con,$sql);
+    $row=mysqli_fetch_assoc($result);
+    $name=$row['Name'];
+    $email=$row['Email'];
+    $subject=$row['Subject'];
+    $message=$row['Message'];
+
+if(isset($_POST['submit']))
+{
+    $name=$row['Name'];
+    $email=$row['Email'];
+    $subject=$row['Subject'];
+    $message=$row['Message'];
+
+    $sql="UPDATE contact set Name='$name', Email='$email', Subject='$subject', Message='$message' where id=$id";
+
+    $result=mysqli_query($con,$sql);
+    if($result)
+    {
+        echo"Updated successfully";
+        // header('location:display.php');
+    }
+    else
+    {
+        die(mysqli_error($con));
+    }
+}
+
+?>
+
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+    <title>Crud Operation enter</title>
+</head>
+<body>
+    <div class="container my-5">
+        <form method="post">
+       
+        <div class="form-group">
+            <label> Name </label><br>
+            <input type="text" class="form-control" placeholder="Enter Your Name" 
+            name="name" value= <?php echo  $name;?>><br>
+        </div>        
+        
+        <div class="form-group">
+            <label> Email </label><br>
+            <input type="email" class="form-control" placeholder="Enter Your Email" 
+            name="email" value=<?php echo $email;?>><br>
+        </div>
+
+        <div class="form-group">
+            <labe> Subject </label><br>
+            <input type="text" class="form-control" placeholder="Enter Subject" 
+            name="message" value=<?php echo $message;?>><br>
+        </div>
+
+        <br><br><button type="submit" class="btn btn-primary" name="submit">Update</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!--<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/contact.css">
+        <link rel="stylesheet" href="styles/contactusread.css">
         <link rel="stylesheet" href="styles/demoamath.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -22,26 +102,11 @@
         </nav> 
     </header>
     <body>
-        <h1><p class="p1">How can we Help?</p></h1>
-        <div class="containerB">
-            <div class="left">
-                <div class="frame">
-                    <p class="p2">We as International Music Awards are committed to assisting all the music enthusiastic around the world. 
-                        Our skilled team of marketing experts is committed to providing outstanding customer services that are specifically tailored to your requirements. 
-                        To learn more about how our online voting system function, can help satisfy your needs and get in touch with us right away.<br><br>
-                        <b>Thank you</p>
-                        <i class="fa-solid fa-address-book"> :0765 832 812</i>
-                        <i class="fa-solid fa-envelope"> </i>
-                        <p style="margin-top:-22px; margin-left:160px; font-family:arial; font-size:20px;" > ima@gmail.com </p>
-                    </p>
-                </div>
-            </div>
-            <div class="right">
-                <div class="sqr">
+    <h1><p class="p1">How can we Help?</p></h1>
+    <div class="sqr">
                     <div><p class="p3">Couldn't find an answer to your problem?<br><br>
                     Don't let obstacles hold your business back. Reach out to us today and let our online voting system be the solution to your problems. 
                     We are eager to assist you and provide you a better user experience.</p></div>
-
                 <form method="post" action="inquiry.php">
                 <label for="name">Name</label><br>
                 <input type="text" name="name" required><br>
@@ -55,8 +120,8 @@
             </form>
                 </div>
             </div>
-        </div>
-        <footer>
+
+            <footer>
     <div class="footerContainer">
         <div class="socialIcons">
             <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
@@ -80,4 +145,4 @@
     </div>
 </footer>
     </body>
-    </html>
+    </html>-->

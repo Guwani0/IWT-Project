@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="styles/demoamath.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-        <title> Contact Us| IMA 2024</title>
+        <title> Contact Us | IMA 2024</title>
     </head>
     <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
 <header class="header">
@@ -22,31 +22,14 @@
         </nav> 
     </header>
     <body>
-        <h1><p class="p1">How can we Help?</p></h1>
-        <div class="containerB">
-            <div class="left">
-                <div class="frame">
-                    <p class="p2">We as International Music Awards are committed to assisting all the music enthusiastic around the world. 
-                        Our skilled team of marketing experts is committed to providing outstanding customer services that are specifically tailored to your requirements. 
-                        To learn more about how our online voting system function, can help satisfy your needs and get in touch with us right away.<br><br>
-                        <b>Thank you</p>
-                        <i class="fa-solid fa-address-book"> :0765 832 812</i>
-                        <i class="fa-solid fa-envelope"> </i>
-                        <p style="margin-top:-22px; margin-left:160px; font-family:arial; font-size:20px;" > ima@gmail.com </p>
-                    </p>
-                </div>
-            </div>
-            <div class="right">
+    <h1><p class="p1">Successfully submitted</p></h1>
                 <div class="sqr">
-                    <div><p class="p3">Successfully submitted</p><br><br>
                     <p class="p4">If you want to edit your inquiry</p>
-                <button class="btn2" type="submit" value="Edit">EDIT</button>
-                </div>
+                    <a href="contactusread.php"><button class="btn2" type="submit" value="Edit">EDIT</button></a>
+                <br><br>
                 <p class="p4">If you want to delete your inquiry</p>
-                
+                <button class="btn2" type="submit" value="delete">DELETE</button>
                 </div>
-            </div>
-        </div>
         <footer>
     <div class="footerContainer">
         <div class="socialIcons">
