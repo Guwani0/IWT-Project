@@ -9,7 +9,6 @@ if(!empty($_SESSION['sessionid'])) {
 } 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <html>
@@ -20,7 +19,15 @@ if(!empty($_SESSION['sessionid'])) {
     <link rel="stylesheet" type="text/css" href="styles/profile.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Profile| IMA 2024</title>
- 
+  <style>
+            @font-face{
+            font-family:Future;
+            src: url('../IMA/fonts/future.ttf');
+        }
+            body{
+                font-family:"Future";
+            }
+    </style>
 </head>
 <body>
     <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
@@ -36,9 +43,10 @@ if(!empty($_SESSION['sessionid'])) {
         <a href="#"> Contact Us </a> 
     </nav>
     </header>
-    <h1>Profile</h1>
 
-   <div class="container">
+    <h1 class="header1" style="font-size: xxx-large;"> Your Profile </h1>
+
+    <div class="container">
    
     <div class="profile">
 
@@ -46,9 +54,14 @@ if(!empty($_SESSION['sessionid'])) {
        <span id="result-LastName" ><h4> Last Name      :</h4></span><?php echo $row["Last_Name"]; ?><br><br>
        <span id="result-email" > <h4> Email             : </h4></span><?php echo $row["Email"]; ?><br><br> 
        <span id="result-phoneNumber" ><h4> Contact Number :</h4></span><?php echo $row["Contact_No"]; ?><br><br>
+       <span id="result-dob" ><h4> Date of Birth          :</h4></span><?php echo $row["DOB"]; ?><br><br>
+       <span id="result-dob" ><h4> Country          :</h4></span><?php echo $row["Country"]; ?><br><br>
       
-  </div><br>
+    </div><br>
+    </div>
 
+
+    <a href="logout.php">  Logout </a>     
     <a href="editprofile.php"> <input class="button1" type="submit" name="editProfile" value="Edit Profile"></a>
     <a href="deleteprofile.php"> <input class="button1" type="submit" name="deleteProfile" value="Delete Profile"></a>
     <footer>
