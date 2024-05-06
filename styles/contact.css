@@ -1,0 +1,90 @@
+.p1{
+    color: white;
+    text-align: center;
+}
+.containerB{
+    display: flex;
+}
+.left{
+    flex: 1;
+}
+.right{
+    flex: 1;
+}
+.frame{
+    border: 2px solid white;
+    padding: 150px;
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 40px;
+    height: 150px;
+    justify-content: center;
+    /*background-color: rgba(255, 255, 255, 0.5);*/
+    background-color:rgb(253, 150, 24);
+    border-style: ridge;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 20px 35px rgba(250, 171, 0, 0.842);
+    
+}
+.p2{
+    color: white;
+    text-align: center;
+    width: 450px;
+    font-size: x-large;
+    margin-top: -120px;
+    margin-left: -130px;
+}
+.p3{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+.sqr{
+    backdrop-filter: blur(6px);
+    background-color:rgba(204, 118, 5, 0.788);
+    border-radius: 7px;
+    width: 640px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    margin-top: 40px;
+    margin-right: 70px;
+    padding: 10px;
+    box-shadow: 0px 20px 35px rgb(204, 149, 77);
+}
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0 30px 25px;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: auto;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px 0 10px 300px;
+}
+textarea#message{
+    height: 160px;
+}
+label{
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.fa-address-book{
+    margin-left: -100px;
+    margin-top: 60px;
+
+}
+.fa-envelope{
+    margin-top: -50px;
+    margin-left: 100px;
+}
