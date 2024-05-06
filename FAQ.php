@@ -60,23 +60,7 @@
             </div>
         </div>
     </div>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-    const questions = document.querySelectorAll(".question");
-
-    questions.forEach(question => {
-        question.addEventListener("click", function() {
-            const answer = this.nextElementSibling;
-            this.classList.toggle("active");
-            if (answer.style.maxHeight) {
-                answer.style.maxHeight = null;
-            } else {
-                answer.style.maxHeight = answer.scrollHeight + "px";
-            }
-        });
-    });
-});
-    </script>
+    <script src="FAQ.js"> </script>
 
 <a href="feedback.html" class="feedback-button">Feedback</a>
 <br><br><br><br>

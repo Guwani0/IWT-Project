@@ -8,7 +8,7 @@
 
     if($con->query($sql))
     {
-        echo "Deleted";
+        echo '<script>alert("Successfully Deleted!");</script>';
     }
     else{
         echo "Not Successful";

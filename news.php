@@ -36,7 +36,9 @@
                 <br><br>
                 <img src="../IWT-Project/images/artist1.jpg" alt="Artist 1">
                 <h3>Taylor Swift</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis feugiat ipsum.</p>
+                <p>Get ready for a musical extravaganza as Taylor Swift gears up to rock the stage at IMA 2024!
+                     With her unmatched talent and magnetic charm, Swift is set to deliver a performance that will leave fans spellbound. Don't miss out on the
+                     excitement as one of the biggest names in music takes center stage at this year's IMA event. </p>
             </div>
             <br><br><br><br><br>
             <div class="artist">
@@ -44,7 +46,11 @@
             <br><br>
                 <img src="../IWT-Project/images/artist2.jpeg" alt="Artist 2">
                 <h3>Harry Styles</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis feugiat ipsum.</p>
+                <p>Harry Styles is bringing his electrifying energy to the stage at IMA 2024!
+                     Get ready to groove to his infectious beats and swoon over his soulful voice.
+                      With his unique style and undeniable charisma, Styles is sure to deliver a performance
+                       that will leave fans craving more.
+                     Don't miss your chance to experience the magic as Harry Styles lights up the stage at IMA 2024!</p>
             </div>
         </section>
         <br><br><br><br><br><br><br><br><br><br>
@@ -56,7 +62,10 @@
             <br><br>
                 <img src="../IWT-Project/images/host1.jpeg" alt="Announcer 1">
                 <h3>Kevin Hart</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis feugiat ipsum.</p>
+                <p>Kevin Hart is set to bring the laughs as the host of this year's event at IMA 2024!
+                     Get ready for an evening filled with hilarious moments and unforgettable comedy as Hart takes the stage
+                     . With his quick wit and infectious humor, he's sure to keep the audience entertained from start to finish.
+                     Don't miss out on the fun as Kevin Hart takes on hosting duties at IMA 2024!</p>
             </div>
             <br><br><br><br><br>
             <div class="announcer">
@@ -64,7 +73,12 @@
             <br><br>
                 <img src="../IWT-Project/images/host2.jpeg" alt="Announcer 2">
                 <h3>Dwayne 'The Rock' Johnson</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis feugiat ipsum.</p>
+                <p>Dwayne Johnson, the powerhouse of entertainment,
+                     is also stepping into the spotlight as the host of this year's Harryste 2024 event!
+                      Get ready for an electrifying evening filled with action, charm, and of course, plenty of laughs.
+                       With his larger-than-life presence and irresistible charisma, Johnson is sure to keep audiences on the
+                        edge of their seats.
+                     Don't miss out on the excitement as Dwayne Johnson takes center stage at Harryste 2024!</p>
             </div>
         </section>       
     </div>

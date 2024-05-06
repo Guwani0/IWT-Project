@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="styles/adminDashboard.css">
         <link rel="stylesheet" href="styles/demosanjana.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>Admin Dashbord | IMA</title>
+        <title>Nominee Dashboard | IMA</title>
     </head>
 
     <body>
@@ -15,12 +15,11 @@
             <h1>International Music Awards</h1>
         </div>
         <div class="box">
-                <p class="p1">Admin Dashboard</p>
-                <button class="btn1">Profile</button><br>
-                <a href="categoryDashboard.php"><button class="btn1">Manage Categories</button></a><br>
-                <a href="nomineeDashboard.php"><button class="btn1">Manage Nominees</button></a><br>
-                <button class="btn1">User Feedback</button>
-                <button class="btn1">User votes</button><br>
+                <p class="p1">Edit Nominees</p>
+                <a href="readnominee.php"><button class="btn1">View Nominees</button></a><br>
+                <a href="addnominee.php"><button class="btn1">Add Nominees</button></a><br>
+                <a href="updatenominee.php"><button class="btn1">Update Nominees</button></a><br>
+                <a href="deletenominee.php"><button class="btn1">Delete Nominees</button></a><br>
         </div>
 
         <footer>
@@ -48,4 +47,3 @@
 </footer>
     </body>
 </html>
-

@@ -14,7 +14,7 @@
 
         if($con->query($sql))
         {
-            echo "Updated";
+            echo '<script>alert("Nominee successfully updated!");</script>';
         }
         else{
             echo "Not updated";
