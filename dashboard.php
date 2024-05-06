@@ -38,9 +38,9 @@
         <h1><p class="wel">Welcome</p></h1>
         <div class="userbox">
         <p class="dashp">User Dashboard</p>
-                <button class="pbtn">Profile</button><br>
-                <button class="pbtn">News</button><br>
-                <button class="pbtn">Notifications</button>
+                <a href="userprofile.php"><button class="pbtn">Profile</button> </a><br>
+                <a href="news.php"><button class="pbtn">News</button> </a><br> 
+                <a href="notification.php"> <button class="pbtn">Notifications </button> </a>
         </div>
         </div>
 

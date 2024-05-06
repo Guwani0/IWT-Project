@@ -16,7 +16,7 @@
         </div>
         <div class="box">
                 <p class="p1">Admin Dashboard</p>
-                <button class="btn1">Profile</button><br>
+                <a href="adminprofile.php"><button class="btn1">Profile</button> </a><br>
                 <a href="categoryDashboard.php"><button class="btn1">Manage Categories</button></a><br>
                 <a href="nomineeDashboard.php"><button class="btn1">Manage Nominees</button></a><br>
                 <button class="btn1">User Feedback</button>
