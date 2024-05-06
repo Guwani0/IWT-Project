@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+        <link rel="stylesheet" href="styles/stylesjason.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
 <title></title>
 <style>
     @font-face{
@@ -36,16 +39,35 @@
         text-shadow:5px 5px 10px black;
     }
 
+    .loop{
+        display:flex;
+        justify-content:flex-start;
+        background: black;
+        overflow:hidden;
+    }
+
     .live{
         font-family:'Mono';
         font-size: 17px;
-        color: white;
+        text-transform:uppercase;
+        color: transparent;
+        -webkit-text-stroke-width: 0.1px;
+        -webkit-text-stroke-color: white;
+        -text-stroke-color: white;
+        white-space:nowrap;
+        padding: 0 6rem;
+        animation: move-rtl 12s linear infinite;
     }
 
-    .line{
-        border-color: rgba(255, 179, 0, 0.262);
-    }
 
+    @keyframes move-rtl{
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
 
 
     body {
@@ -120,9 +142,8 @@
     border-color:rgba(255, 177, 20, 0.91);
     border-radius:20px;
     margin-top:7px;
-    margin-left:17px;
     width: 370px;
-    height:47px;
+    height:70px;
     cursor:pointer;
     position: relative; 
     display: inline-block;
@@ -133,7 +154,6 @@
     font-weight: bold; 
     transition: .5s;
     overflow: hidden;
-    margin-right: 70px;
     
 }
 
@@ -163,23 +183,42 @@
 </head>
 
 <body>
- <?php include 'Header.php'?>
- <div class="float">
-    <p class="live"><marquee><b>Pick your favourite now! Tune in LIVE Sunday, June 15th at 987 C PTV to see who wins!</b></marquee></p>
-    <hr class="line">
+    <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
 
-    <h1 class="best">BEST NEW ARTIST</h1>
+    <header class="header">
+
+            <nav class="navbar">
+                <a href="#">  Home </a> 
+                <a href="#"> IMA 2024 </a> 
+                <a href="#"> Archives </a> 
+                <a href="#"> Gallery </a> 
+                <a href="#"> The IMA Story </a> 
+                <a href="#"> Download The App </a> 
+                <a href="#"> Contact Us </a> 
+            </nav> 
+    </header>
+ 
+ <div class="float">
+ <div class="loop">
+    <p class="live"><b>Pick your favourite now! Tune in LIVE Sunday, June 15th at 987 C PTV to see who wins!</b></p>
+    <p class="live"><b>Pick your favourite now! Tune in LIVE Sunday, June 15th at 987 C PTV to see who wins!</b></p>
+    <p class="live"><b>Pick your favourite now! Tune in LIVE Sunday, June 15th at 987 C PTV to see who wins!</b></p>
+ 
+
+</div>
+
+    <center><h1 class="best">BEST NEW ARTIST</h1></center>
     <br>
  
-    <center><video controls src="BEST.mp4" type="video/mp4" width="80%%" height="650px">
+    <center><video controls src="../IWT-Project/Videos/BEST.mp4" type="video/mp4" width="80%%" height="650px">
     </video></center>
     <br>
     <br>
     <br>
 
-    <h1 class="fav">VOTE YOUR FAVOURITE SUPERSTAR</h1>
-    <br>
-    <br>
+    <center><h1 class="fav">VOTE YOUR FAVOURITE SUPERSTAR</h1></center>
+    <center><a href="form-best.php"><button class="Vote">VOTE</button></a></center>
+    <br><br><br><br><br>
 
     <div class="box">
     <div class="cards">
@@ -187,11 +226,12 @@
             <div class="card-info">
                 <img class="card-img" src="images/Olivia.png">
 
-                    <button class="Vote">VOTE</button>
+                    
                 </div>
             </div>
         </div>
         </div>
+        <br><br>
         <div class="name">OLIVIA RODRIGO</div>
         <p class="about"> Olivia Rodrigo, rising star known for her breakout role in Disney's "High School Musical: The Musical: The Series" and chart-topping debut single "drivers license." With her emotive lyrics and powerful vocals, Rodrigo has captured the hearts of fans worldwide. Beyond music, she's an advocate for social causes, using her platform to inspire and empower young voices. Here track, 'Vampire', has been the talk of the town. Speaking of town, wanna go around town while blasting 'driver's license' on the speaker?</p>
 
@@ -202,11 +242,12 @@
             <div class="card-info">
                 <img class="card-img" src="images/Carp.png">
                 
-                    <button class="Vote">VOTE</button>
+                    
                 </div>
             </div>
         </div>
         </div>
+        <br><br>
         <div class="name">SABRINA CARPENTER</div>
         <p class="about"> Sabrina Carpenter,  an actress turned chart-topping singer-songwriter. 
             Transitioned from Disney stardom to a flourishing music career with hits like "Sue Me" and "Skin." 
@@ -220,16 +261,41 @@
             <div class="card-info">
                 <img class="card-img" src="images/Benson.jpg">
                 
-                    <button class="Vote">VOTE</button>
+                   
                 </div>
             </div>
         </div>
         </div>
+        <br><br>
         <div class="name">BENSON BOONE</div>
         <p class="about"> Benson Boone is a rising star in the music industry, known for his captivating vocals and heartfelt lyrics. Hailing from the United States, Boone has quickly gained a dedicated fanbase with his soulful performances and authentic storytelling. With his talent and charisma, he has become a beacon of inspiration for aspiring artists worldwide. Vote for Benson Boone and celebrate his remarkable contributions to the world of music.</p>
 
 
     </div>
+    <footer>
+    <br><br><br><br><br><br><br><br><br><br>   
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.google.com/"><i class="fa-brands fa-google-plus"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="index.php">Home</a></li>
+                <li><a href="">Download The App</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>&copy; 2024 IMA Media Networks, a division of IMA Global Inc. All Rights Reserved.</p>
+    </div>
+</footer>
     </body>
     </html>
     
