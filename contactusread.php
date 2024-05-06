@@ -1,38 +1,36 @@
 <?php
 require 'configure.php';
 session_start();
-
 if(!empty($_SESSION['sessionid'])) {
     $sessionid = $_SESSION["sessionid"];
     $result = mysqli_query($con, "SELECT * FROM contact WHERE ID = '$sessionid'");
     $row = mysqli_fetch_assoc($result);
-} 
+}
 
-    $id = $row['ID'];
+$id=$row['ID'];
+$sql="SELECT * from `contact` where ID=$id";
+$result=mysqli_query($con,$sql);
+$row=mysqli_fetch_assoc($result);
 
-    // $id=$_POST['id'];
-    $sql="SELECT * FROM contact WHERE ID=$id";
-    $result=mysqli_query($con,$sql);
-    $row=mysqli_fetch_assoc($result);
-    $name=$row['Name'];
-    $email=$row['Email'];
-    $subject=$row['Subject'];
-    $message=$row['Message'];
+$name=$row['Name'];
+$email=$row['Email'];
+$subject=$row['Subject'];
+$message=$row['Message'];
 
 if(isset($_POST['submit']))
 {
-    $name=$row['Name'];
-    $email=$row['Email'];
-    $subject=$row['Subject'];
-    $message=$row['Message'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
 
-    $sql="UPDATE contact set Name='$name', Email='$email', Subject='$subject', Message='$message' where id=$id";
+    $sql="update contact set id=$id, name='$name', email='$email', subject='$subject', message='$message' where id=$id";
 
     $result=mysqli_query($con,$sql);
     if($result)
     {
-        echo"Updated successfully";
-        // header('location:display.php');
+        echo "<script> alert('Updated Successfully'); </script>";
+        header('location:contactus.php');
     }
     else
     {
@@ -55,23 +53,29 @@ if(isset($_POST['submit']))
         <form method="post">
        
         <div class="form-group">
-            <label> Name </label><br>
-            <input type="text" class="form-control" placeholder="Enter Your Name" 
-            name="name" value= <?php echo  $name;?>><br>
-        </div>        
-        
+            <label>Neme</label><br>
+            <input type="text" class="form-control" placeholder="Your Name" 
+            name="name" value=<?php echo $name;?>><br>
+        </div>
+
         <div class="form-group">
-            <label> Email </label><br>
-            <input type="email" class="form-control" placeholder="Enter Your Email" 
+            <label>E-mail</label><br>
+            <input type="text" class="form-control" placeholder="E-mail" 
             name="email" value=<?php echo $email;?>><br>
         </div>
 
         <div class="form-group">
-            <labe> Subject </label><br>
-            <input type="text" class="form-control" placeholder="Enter Subject" 
-            name="message" value=<?php echo $message;?>><br>
+            <labe>Mobile</label><br>
+            <input type="text" class="form-control" placeholder="Subject" 
+            name="subject" value=<?php echo $subject;?>><br>
         </div>
 
+        <div class="form-group">
+            <label>Password</label><br>
+            <input type="text" class="form-control" placeholder="Message" 
+            name="message" value=<?php echo $message;?>><br>
+        </div>
+            
         <br><br><button type="submit" class="btn btn-primary" name="submit">Update</button>
         </form>
     </div>
