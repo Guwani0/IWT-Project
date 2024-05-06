@@ -1,0 +1,264 @@
+* Font */
+body {
+    font-family: 'Future', sans-serif;
+}
+
+/* Table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* Button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Delete Button */
+button.delete {
+    background-color: #f44336;
+}
+
+button.delete:hover {
+    background-color: #d32f2f;
+}
+
+/* Update Button */
+button.update {
+    background-color: #2196F3;
+}
+
+button.update:hover {
+    background-color: #0b7dda;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialIcons a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.footerNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerNav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footerNav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerBottom {
+    background-color: #222;
+    padding: 10px 0;
+}
+  .header{
+    position:absolute;
+    top: 20px;
+    left:180px;
+    padding: 20px 50px;
+    background-color:transparent;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index:100;
+}
+
+body{
+    background-image: url("../images/backlast.png");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    background-position: center;
+    background-color: white;
+    overflow-y: auto;
+    overflow-x: auto;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar a{
+    position: relative;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left:40px ;
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #FFB000;
+    transition:0.3s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.awardimg{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+}
+
+.ima{
+    position:absolute;
+    margin-left: 550px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.logsign {
+    position: relative;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left:50px ;
+    margin-left: 950px;
+    margin-top: 50px;
+}
+
+.container footer{
+    background-color:transparent;
+}
+.footerContainer{
+    padding: 70px 30px 20px ;
+    justify-content:space-between;
+    background-color:#332a1c;
+    opacity: 0.8;
+    margin-top: 60px;
+    
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color:darkorange;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 1.5em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color:#fafafa;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color:#FFB000;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:rgb(255, 255, 255);
+    margin: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    color: #FFB000;
+    opacity: 0.7;
+}
+.footerBottom{
+    background-color:#ff8c00;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+.footerBottom p{
+    color: white;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}

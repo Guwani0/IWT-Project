@@ -1,0 +1,231 @@
+
+.header{
+    position:absolute;
+    top: 20px;
+    left:180px;
+    padding: 20px 50px;
+    background-color:transparent;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index:100;
+}
+
+body{
+    background-image: url("../images/backlast.png");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    background-position: center;
+    background-color:#454545;
+    overflow-y: auto;
+    overflow-x: auto;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar a{
+    position: relative;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left:40px ;
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #FFB000;
+    transition:0.3s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.awardimg{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+}
+
+.ima{
+    position:absolute;
+    margin-left: 550px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.logsign {
+    position: relative;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left:50px ;
+    margin-left: 950px;
+    margin-top: 50px;
+}
+
+.container footer{
+    background-color:transparent;
+}
+.footerContainer{
+    padding: 70px 30px 20px ;
+    justify-content:space-between;
+    background-color:#332a1c;
+    opacity: 0.8;
+    margin-top: 60px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color:darkorange;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 1.5em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color:#fafafa;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color:#FFB000;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:rgb(255, 255, 255);
+    margin: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    color: #FFB000;
+    opacity: 0.7;
+}
+.footerBottom{
+    background-color:#ff8c00;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+.footerBottom p{
+    color: white;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+.gall2{
+    font-size: 85px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.mb{
+    justify-content: center;
+    width: auto;
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.mb1{
+    height: 250px;
+    width: 11%;
+    margin: auto;
+}
+.mb2{
+    height: 250px;
+    width: 11%;
+    margin: auto;
+}
+.mb3{
+    height: 250px;
+    width: 11%;
+    margin: auto;
+}
+.mb4{
+    height: 250px;
+    width: 11%;
+    margin: auto;
+}
+.mb5{
+    height: 250px;
+    width: 11%;
+    margin: auto;
+}
+.mb6{
+    height: 250px;
+    width: 11%;
+    margin: auto;
+}
+.mb7{
+    height: 250px;
+    width: 11%;
+
+    margin: auto;
+}
+.p1{
+    justify-content: center;
+    display: flex;
+    font-size: 2.5rem;
+    color: var(--main-color);
+
+}
+.mbi{
+    height: 250px;
+    width: 170px;
+    box-shadow: var(--box-shadow);
+    object-fit: cover;
+    border: 3px solid white;
+}
+
