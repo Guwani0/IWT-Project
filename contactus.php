@@ -39,7 +39,7 @@
                 <div class="frame">
                     <p class="p2">We as International Music Awards are committed to assisting all the music enthusiastic around the world. 
                         Our skilled team of marketing experts is committed to providing outstanding customer services that are specifically tailored to your requirements. 
-                        To learn more about how our online voting system function, can help satisfy your needs and get in touch with us right away.<br><br>
+                        <br><br>
                         <b>Thank you</p>
                         <i class="fa-solid fa-address-book"> :0765 832 812</i>
                         <i class="fa-solid fa-envelope"> </i>
@@ -77,13 +77,13 @@
             <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
         </div>
         <div class="footerNav">
-            <ul><li><a href="index.php">Home</a></li>
-                <li><a href="">Download The App</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">FAQ</a></li>
+            <ul><li><a href="postlogin1.php">Home</a></li>
+                <li><a href="download.php"> Download The App</a></li>
+                <li><a href="ima_story.php">About Us</a></li>
+                <li><a href="contactus.php">Contact Us</a></li>
+                <li><a href="FAQ.php"> FAQ </a></li>
             </ul>
-        </div>
+            </div>
         
     </div>
     <div class="footerBottom">

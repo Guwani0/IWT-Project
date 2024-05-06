@@ -67,15 +67,14 @@ if(isset($_POST['submit'])) {
       <input type="password" id="password" name="password" placeholder="User Password"  style="color:white;"><br><br>
 
       <p class="ReFo"><input type="checkbox" id="rememberme" name="rememberme">
-      Remember me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="kofie" style="margin-left:185px">Forgot password?</a></p><br>
+      Remember me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="passwordReset.php" style="margin-left:185px">Forgot password?</a></p><br>
 
       <button type="submit" name="submit" class="su" style=" cursor: pointer;">LOG IN</button>
       <p style="text-align: center;" class="para1"> <br>Don't have an account?</p>&nbsp;
       <a href="signup.php" class="su">SIGN UP</a>
       <br> <br> <p style="text-align: center;" class="para1">Admin log in here</p>&nbsp;
-      <button type="submit" class="admin">Admin</button> <br><br>
+      <a href="adminlogin.php" class="su"> Admin </a>
 
-     
   </form>
   </div>
 
@@ -89,13 +88,13 @@ if(isset($_POST['submit'])) {
             <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
         </div>
         <div class="footerNav">
-            <ul><li><a href="postlogin1">Home</a></li>
-                <li><a href="">Download The App</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">FAQ</a></li>
+            <ul><li><a href="postlogin1.php">Home</a></li>
+                <li><a href="download.php"> Download The App</a></li>
+                <li><a href="ima_story.php">About Us</a></li>
+                <li><a href="contactus.php">Contact Us</a></li>
+                <li><a href="FAQ.php"> FAQ </a></li>
             </ul>
-        </div>
+            </div>
         
     </div>
     <div class="footerBottom">
