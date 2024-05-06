@@ -124,7 +124,7 @@ if(isset($_POST['submit']))
 
         <br> <br> 
         <div> <button type="submit" name="submit" class="primary"> Update </button>
-        </div>   
+        </div>   </div>
     <footer>
         <div class="footerContainer">
             <div class="socialIcons">

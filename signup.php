@@ -9,7 +9,7 @@
     <style>
             @font-face{
             font-family:Future;
-            src: url('../IMA/fonts/future.ttf');
+            src: url('../IWT-Project/fonts/future.ttf');
         }
             body{
                 font-family:"Future";
@@ -30,7 +30,7 @@
             <a href="#"> Contact Us </a> 
     </nav> 
     </header>
-    <h1 class="header1" style="font-size: xxx-large;">SIGN UP</h1>
+    <h1 class="header1" style="font-size: xxx-large; color:gold; text-shadow:5px 5px 10px black;">SIGN UP</h1>
 
     <div class="login-box">
         <form method="post" action="signupinsert.php">
@@ -46,9 +46,9 @@
             <input type="submit" value="SIGN UP"  class="su" style=" cursor: pointer;"> <br> <br>
 
             <p style="text-align: center;" class="para1"> Already have an account? <br> <br>
-            <button type="submit" class="admin"> <a href="login.php" style="text-decoration:none; color:white"> LOG IN </button>
+            <button type="submit" class="admin"> <a href="login.php" style="text-decoration:none; color:white"> LOG IN </button> </a>
     </form>
-    
+        </div>
     <footer>
         <div class="footerContainer">
             <div class="socialIcons">

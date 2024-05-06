@@ -38,7 +38,7 @@ if(isset($_POST['submit'])) {
   <style>
             @font-face{
             font-family:Future;
-            src: url('../IMA/fonts/future.ttf');
+            src: url('../IWT-Project/fonts/future.ttf');
         }
             body{
                 font-family:"Future";
@@ -59,7 +59,7 @@ if(isset($_POST['submit'])) {
             <a href="#"> Contact Us </a> 
         </nav> 
     </header>
-    <h1 class="header1" style="font-size: xxx-large;">LOG IN</h1>
+    <h1 class="header1" style="font-size: xxx-large; color:gold; text-shadow:5px 5px 10px black;">LOG IN</h1>
     <div class="login-box">
       <form id="login" method="POST" autocomplete="on">
 
