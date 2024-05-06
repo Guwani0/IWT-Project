@@ -1,59 +1,170 @@
-:root{
-    --main-color:#bc9667;
-    --secondary-coolor:#edeae3;
-    --text-color:#1b1b1b;
-    --bg-color:#fff;
-    --box-shadow:2px 2px 10px 14px rgb(14 55 54 / 15%);
 
-}
-
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: center; /*doesn't centered*/
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
+.header{
+    position:absolute;
+    top: 20px;
+    left:180px;
+    padding: 20px 50px;
+    background-color:transparent;
+    display:flex;
+    justify-content:space-between;
     align-items: center;
-    padding: 18px 100px;
-    background-color: var(--text-color);
-    transition: 0.5s linear;
-
-}
-.logo{
-  max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-
+    z-index:100;
 }
 
-.navbar li {
-    display: inline-block;
-    margin: 0 10px; 
-    
-}
-
-
-li{
-    float: left;
-}
-.navbar a {
-    display: block;
-    color: var(--bg-color);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-  
-.navbar a:hover {
-    background-color: var(--main-color);
-    border-radius: 0.2rem;
-    transition: 0.5s all linear;
-} 
 body{
-    background-color: #FEECE2;
+    background-image: url("../images/backlast.png");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    background-position: center;
+    background-color:#454545;
+    overflow-y: auto;
+    overflow-x: auto;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar a{
+    position: relative;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left:40px ;
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #FFB000;
+    transition:0.3s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.awardimg{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+}
+
+.ima{
+    position:absolute;
+    margin-left: 550px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.logsign {
+    position: relative;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left:50px ;
+    margin-left: 950px;
+    margin-top: 50px;
+}
+
+.container footer{
+    background-color:transparent;
+}
+.footerContainer{
+    padding: 70px 30px 20px ;
+    justify-content:space-between;
+    background-color:#332a1c;
+    opacity: 0.8;
+    margin-top: 60px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color:darkorange;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 1.5em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color:#fafafa;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color:#FFB000;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:rgb(255, 255, 255);
+    margin: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    color: #FFB000;
+    opacity: 0.7;
+}
+.footerBottom{
+    background-color:#ff8c00;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+.footerBottom p{
+    color: white;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+.gall{
+    font-size: 85px;
+    margin-top: 10px;
 }
 .mb{
     justify-content: center;
@@ -111,5 +222,7 @@ body{
     height: 250px;
     width: 170px;
     box-shadow: var(--box-shadow);
+    object-fit: cover;
+    border: 3px solid white;
 }
 

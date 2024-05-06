@@ -161,58 +161,74 @@ body{
         margin: 4px;
     }
 }
-.gall2{
-    font-size: 85px;
-    margin-top: 10px;
-    justify-content: center;
-    align-items: center;
+.tab{
+    background:  #f4dfb481;
     display: flex;
-}
-.mb{
     justify-content: center;
-    width: auto;
     align-items: center;
-    height: auto;
-    margin-bottom: 30px;
-    margin-top: 10px;
-}
-
-#vid1{
-    width: 300px;
-    height: 350px;
-    object-fit: cover;
-    margin-left: 200px;
-    border: 1px solid white;
-   
-}
-#vid2{
-    width: 300px;
-    height: 350px;
-    object-fit: cover; 
+    margin-top: 100px;
+    height: 350px;  
     margin-left: 100px;
-    border: 1px solid white;
-}
-#vid3{
-    width: 300px;
-    height: 350px;
-    object-fit: cover; 
-    margin-left: 100px;
-    border: 1px solid white;
-    
-}
-#vid4{
-    width: 300px;
-    height: 350px;
-    object-fit: cover;
-    margin-left: 400px;
-    margin-top: 200px;
-    border: 1px solid white;
-}
-#vid5{
-    width: 300px;
-    height: 350px;
-    object-fit: cover; 
-    margin-left: 200px;
-    border: 1px solid white;
+    margin-right: 100px;
+    border-radius: 1.5rem;
 
 }
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for the buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the add comment button */
+  button.add-comment {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the delete button */
+  button.delete {
+    background-color: #f44336;
+  }
+  
+  button.delete:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Style for the update button */
+  button.update {
+    background-color: #2196F3;
+  }
+  
+  button.update:hover {
+    background-color: #0b7dda;
+  }

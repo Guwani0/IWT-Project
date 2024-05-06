@@ -1,3 +1,4 @@
+
 .header{
     position:absolute;
     top: 20px;
@@ -161,7 +162,7 @@ body{
         margin: 4px;
     }
 }
-.gall2{
+.gall1{
     font-size: 85px;
     margin-top: 10px;
     justify-content: center;
@@ -171,48 +172,60 @@ body{
 .mb{
     justify-content: center;
     width: auto;
+    display: flex;
     align-items: center;
     height: auto;
     margin-bottom: 30px;
     margin-top: 10px;
 }
+.mb1{
+    height: 250px;
+    width: 11%;
+    margin: auto;
+}
+.mb2{
+    height: 250px;
+    width: 11%;
+    margin: auto;
+}
+.mb3{
+    height: 250px;
+    width: 11%;
+    margin: auto;
+}
+.mb4{
+    height: 250px;
+    width: 11%;
+    margin: auto;
+}
+.mb5{
+    height: 250px;
+    width: 11%;
+    margin: auto;
+}
+.mb6{
+    height: 250px;
+    width: 11%;
+    margin: auto;
+}
+.mb7{
+    height: 250px;
+    width: 11%;
 
-#vid1{
-    width: 300px;
-    height: 350px;
-    object-fit: cover;
-    margin-left: 200px;
-    border: 1px solid white;
-   
+    margin: auto;
 }
-#vid2{
-    width: 300px;
-    height: 350px;
-    object-fit: cover; 
-    margin-left: 100px;
-    border: 1px solid white;
-}
-#vid3{
-    width: 300px;
-    height: 350px;
-    object-fit: cover; 
-    margin-left: 100px;
-    border: 1px solid white;
-    
-}
-#vid4{
-    width: 300px;
-    height: 350px;
-    object-fit: cover;
-    margin-left: 400px;
-    margin-top: 200px;
-    border: 1px solid white;
-}
-#vid5{
-    width: 300px;
-    height: 350px;
-    object-fit: cover; 
-    margin-left: 200px;
-    border: 1px solid white;
+.p1{
+    justify-content: center;
+    display: flex;
+    font-size: 2.5rem;
+    color: var(--main-color);
 
 }
+.mbi{
+    height: 250px;
+    width: 170px;
+    box-shadow: var(--box-shadow);
+    object-fit: cover;
+    border: 3px solid white;
+}
+
