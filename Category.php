@@ -55,7 +55,7 @@
         text-shadow:5px 5px 10px black;
     }
     .BEST{
-        background:url('../IWT-Project/images/Button.jpg');
+        background:url('../IMA/images/Button.jpg');
         background-size:cover;
         font-size:35px; 
         font-family:"Anton";
@@ -88,7 +88,7 @@
     
 
     .YEAR{
-        background:url('../IWT-Project/images/Button.jpg');
+        background:url('../IMA/images/Button.jpg');
         background-size:cover;
         font-size:35px; 
         font-family:"Anton";
@@ -118,7 +118,7 @@
 
 
     .POP{
-        background:url('../IWT-Project/images/Button.jpg');
+        background:url('../IMA/images/Button.jpg');
         background-size:cover;
         font-size:35px; 
         font-family:"Anton";
@@ -150,7 +150,7 @@
 
 
     .SONG{
-        background:url('../IWT-Project/images/Button.jpg');
+        background:url('../IMA/images/Button.jpg');
         background-size:cover;
         font-size:35px; 
         font-family:"Anton";
@@ -181,7 +181,7 @@
 
 
     .GROUP{
-        background:url('../IWT-Project/images/Button.jpg');
+        background:url('../IMA/images/Button.jpg');
         background-size:cover;
         font-size:35px; 
         font-family:"Anton";
@@ -210,7 +210,7 @@
     }
 
     .ALBUM{
-        background:url('../IWT-Project/images/Button.jpg');
+        background:url('../IMA/images/Button.jpg');
         background-size:cover;
         font-size:35px; 
         font-family:"Anton";
