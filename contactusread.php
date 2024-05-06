@@ -113,13 +113,13 @@ if(isset($_POST['submit']))
                     We are eager to assist you and provide you a better user experience.</p></div>
                 <form method="post" action="inquiry.php">
                 <label for="name">Name</label><br>
-                <input type="text" name="name" required><br>
+                <input type="text" name="name" value=<?php echo $name;?> required><br>
                 <label for="email">Email</label><br>
-                <input type="text" name="email" required><br>
+                <input type="text" name="email" value=<?php echo $email;?> required><br>
                 <label for="subject">Subject</label><br>
-                <input type="text" name="subject" required><br>
+                <input type="text" name="subject" value=<?php echo $subject;?> required><br>
                 <label for="message">Message</label><br>
-                <textarea id="message" name="message" rows="4"></textarea> <br>
+                <textarea id="message" name="message" value=<?php echo $message;?> rows="4"></textarea> <br>
                 <input type="submit" value="Sumbit">
             </form>
                 </div>

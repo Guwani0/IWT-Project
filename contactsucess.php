@@ -8,6 +8,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
         <title> Contact Us | IMA 2024</title>
+
+        <style> /*font style*/
+            @font-face{
+            font-family:Future;
+            src: url('../IWT-Project/fonts/future.ttf');
+        }
+            body{
+                font-family:"Future";
+            }
+    </style>
+    
     </head>
     <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
 <header class="header">
@@ -28,7 +39,8 @@
                     <a href="contactusread.php"><button class="btn2" type="submit" value="Edit">EDIT</button></a>
                 <br><br>
                 <p class="p4">If you want to delete your inquiry</p>
-                <button class="btn2" type="submit" value="delete">DELETE</button>
+                <a href="contactusdelete.php">
+                <button class="btn2" type="submit" value="delete">DELETE</button> </a>
                 </div>
         <footer>
     <div class="footerContainer">
