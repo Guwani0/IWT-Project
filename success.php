@@ -20,6 +20,7 @@
             <a href="https://example.com/home" class="button"><i class="fas fa-home"></i> Go to Homepage</a>
             <br><br>
             <a href="UpDelcategory.php" class="button">Update / Delete your vote</a>
+            <a href="ratings.html" class="button">Rate Us</a>
 
         </div>
     </div>
