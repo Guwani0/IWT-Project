@@ -13,7 +13,7 @@
 
         if($con->query($sql))
         {
-            echo "Updated";
+            echo '<script>alert("Category successfully updated!");</script>';
         }
         else{
             echo "Not updated";
