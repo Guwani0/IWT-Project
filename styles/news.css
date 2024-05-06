@@ -22,9 +22,10 @@ body {
 h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
-    color:white;
+    color:gold;
     text-align: center;
     margin-top:30px;
+    text-shadow:5px 5px 10px black;
 }
 
 main {

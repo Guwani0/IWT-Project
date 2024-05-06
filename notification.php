@@ -7,6 +7,15 @@
 <link rel="stylesheet" href="../IWT-Project/styles/notification.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <title>Notifications | IMA 2024</title>
+<style>
+   h1{
+      color:gold;
+      text-shadow:5px 5px 10px black;
+      text-align: center;
+      align-content: center;
+      margin: auto;
+    }
+</style>
 </head>
 <body>
 <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
@@ -22,22 +31,28 @@
             <a href="#"> Contact Us </a> 
         </nav> 
     </header>
+
     <main>
+    <div class="head">
+     <h1>Notifications<h1>
+    </div> 
   <div class="container">
     <div class="notification">
-      <span class="title">Notification Title 1</span>
+      <span class="title">Voting closing on 1st June!</span>
       <div class="full-message">
-        This is the full notification message for Notification Title 1. You can customize it as needed.
+        Be informed that voting will be closing by 12:00am June 1st. So, VOTE! VOTE! VOTE!
       </div>
     </div>
     <div class="notification">
-      <span class="title">Notification Title 2</span>
+      <span class="title">Addition of a new category?!</span>
       <div class="full-message">
-        This is the full notification message for Notification Title 2. You can customize it as needed.
+        A new award will be presented this year! Any guesses?<br>It's 'Best Social Artist'!<br>
+        The award is presented to the artist who has the most social impact, the biggest heart and the greatest heart grabber.<br>
+        So drop in to choose your pick!
       </div>
     </div>
-  </div>
-</main>
+</main> 
+
 <footer>
     <div class="footerContainer">
         <div class="socialIcons">

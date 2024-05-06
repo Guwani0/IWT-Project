@@ -20,6 +20,7 @@
                 <a href="categoryDashboard.php"><button class="btn1">Manage Categories</button></a><br>
                 <a href="nomineeDashboard.php"><button class="btn1">Manage Nominees</button></a><br>
                 <button class="btn1">User Feedback</button>
+                <button class="btn1">User votes</button><br>
         </div>
 
         <footer>
