@@ -23,13 +23,13 @@
     <img src="images/logo.png" width="100px" style="margin-top:20px; margin-left:50px;">
 <header class="header">
     <nav class="navbar">
-            <a href="#">  Home </a> 
-            <a href="#"> IMA 2024 </a> 
+            <a href="postlogin1.php">  Home </a> 
+            <a href="Category.php"> IMA 2024 </a> 
             <a href="#"> Archives </a> 
             <a href="#"> Gallery </a> 
-            <a href="#"> The IMA Story </a> 
-            <a href="#"> Download The App </a> 
-            <a href="#"> Contact Us </a> 
+            <a href="ima_story.php"> The IMA Story </a> 
+            <a href="download.php"> Download The App </a> 
+            <a href="contactus.php"> Contact Us </a> 
         </nav> 
 
         <style>

@@ -51,12 +51,12 @@ if(isset($_POST['submit'])) {
 <header class="header">
     <nav class="navbar">
             <a href="postlogin1.php">  Home </a> 
-            <a href="#"> IMA 2024 </a> 
+            <a href="Category.php"> IMA 2024 </a> 
             <a href="#"> Archives </a> 
             <a href="#"> Gallery </a> 
-            <a href="#"> The IMA Story </a> 
-            <a href="#"> Download The App </a> 
-            <a href="#"> Contact Us </a> 
+            <a href="ima_story.php"> The IMA Story </a> 
+            <a href="download.php"> Download The App </a> 
+            <a href="contactus.php"> Contact Us </a> 
         </nav> 
     </header>
     <h1 class="header1" style="font-size: xxx-large; color:gold; text-shadow:5px 5px 10px black;">LOG IN</h1>

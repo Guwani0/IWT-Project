@@ -27,13 +27,13 @@
     <header class="header">
 
         <nav class="navbar">
-            <a href="#">  Home </a> 
-            <a href="#"> IMA 2024 </a> 
+            <a href="index.php">  Home </a> 
+            <a href="Category.php"> IMA 2024 </a> 
             <a href="#"> Archives </a> 
             <a href="#"> Gallery </a> 
-            <a href="#"> The IMA Story </a> 
-            <a href="#"> Download The App </a> 
-            <a href="#"> Contact Us </a> 
+            <a href="ima_story.php"> The IMA Story </a> 
+            <a href="download.php"> Download The App </a> 
+            <a href="contactus.php"> Contact Us </a> 
         </nav>
         <div class="box">
             <a href="userprofile.php"> <img src="images/userimg.png" alt="User Profile" width="80px" style=" margin-left: 20px;" /> </a>

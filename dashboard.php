@@ -21,13 +21,13 @@
 
     <header class="header"> <!-- link header -->
     <nav class="navbar">
-            <a href="#">  Home </a> 
-            <a href="#"> IMA 2024 </a> 
+            <a href="postlogin1.php">  Home </a> 
+            <a href="Category.php"> IMA 2024 </a> 
             <a href="#"> Archives </a> 
             <a href="#"> Gallery </a> 
-            <a href="#"> The IMA Story </a> 
-            <a href="#"> Download The App </a> 
-            <a href="#"> Contact Us </a> 
+            <a href="ima_story.php"> The IMA Story </a> 
+            <a href="download.php"> Download The App </a> 
+            <a href="contactus.php"> Contact Us </a> 
         </nav> 
     </header>
 
@@ -35,7 +35,7 @@
 
     <body>
         <div>
-        <h1><p class="wel">Welcome</p></h1>
+        <h1><p class="wel" style="color:gold;text-shadow:5px 5px 10px black;">Welcome</p></h1>
         <div class="userbox">
         <p class="dashp">User Dashboard</p>
                 <a href="userprofile.php"><button class="pbtn">Profile</button> </a><br>

@@ -34,13 +34,13 @@ if(!empty($_SESSION['sessionid'])) {
     <header class="header">
 
     <nav class="navbar">
-        <a href="#">  Home </a> 
-        <a href="#"> IMA 2024 </a> 
-        <a href="#"> Archives </a> 
-        <a href="#"> Gallery </a> 
-        <a href="#"> The IMA Story </a> 
-        <a href="#"> Download The App </a> 
-        <a href="#"> Contact Us </a> 
+    <a href="postlogin1.php">  Home </a> 
+      <a href="Category.php"> IMA 2024 </a> 
+      <a href="#"> Archives </a> 
+      <a href="#"> Gallery </a> 
+      <a href="ima_story.php"> The IMA Story </a> 
+      <a href="download.php"> Download The App </a> 
+      <a href="contactus.php"> Contact Us </a> 
     </nav>
     </header>
 
